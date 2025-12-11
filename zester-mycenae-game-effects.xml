@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Specialized Towns Malus -->
+	<Modifier id="TRAIT_MOD_ZESTER_PALACE_ECONOMY_TOWN_MALUS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="HasAnyProject">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD, YIELD_FOOD</Argument>
+		<Argument name="Percent">-75</Argument>
+	<!-- Extra Gold in Cities -->
+	<Modifier id="TRAIT_MOD_ZESTER_PALACE_ECONOMY_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE" />
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">100</Argument>
+		<Argument name="PercentMultiplier">true</Argument>
+	<!-- Food in Towns -->
+	<Modifier id="TRAIT_MOD_ZESTER_PALACE_ECONOMY_TOWN_BUFF" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GROWTH">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN" />
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT" inverse="true">
+				<Argument name="HasAnyProject">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">50</Argument>
+	<!-- Wonder Bonus -->
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_ZESTER_MYCENAE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_ZESTER_MYCENAE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_ZESTER_MYCENAE_DESCRIPTION</String>
+	</Modifier>
+	<!-- Culture Tree Unlock -->
+	<Modifier xmlns="" id="MOD_REVEAL_CIV_CULTURE_TREE_ZESTER_MYCENAE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_ZESTER_MYCENAE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_ZESTER_MYCENAE</Argument>
+	</Modifier>
+</GameEffects>

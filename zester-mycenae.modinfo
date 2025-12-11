@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="zester-mycenae" version="1" xmlns="ModInfo">
+	<Properties>
+		<Name>Mycenae</Name>
+		<Description>Contains a new Antiquity Age Civilization, Mycenae.</Description>
+		<Authors>zester000</Authors>
+	</Properties>
+	<Dependencies></Dependencies>
+	<References></References>
+	<ActionCriteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+		<Criteria  id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria  id="antiquity-age-persist">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup  id="shell-zester-mycenae" scope="shell" criteria="always">
+			<Actions>
+				<UpdateText>
+					<Item>text/zester-mycenae-text.xml</Item>
+				</UpdateText>
+				<UpdateDatabase>
+					<Item>config/zester-mycenae-config.xml</Item>
+				</UpdateDatabase>
+				<UpdateIcons>
+					<Item>data/icon/zester-mycenae-icon.xml</Item>
+				</UpdateIcons>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup  id="zester-mycenae-always" scope="game" criteria="always">
+			<Actions>
+				<UpdateText>
+					<Item>text/zester-mycenae-text.xml</Item>
+				</UpdateText>
+				<UpdateIcons>
+					<Item>data/icon/zester-mycenae-icon.xml</Item>
+				</UpdateIcons>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup  id="zester-mycenae-antiquity-age-current" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/zester-mycenae-civilizations.xml</Item>
+					<Item>data/zester-mycenae-progression-trees.xml</Item>
+					<Item>data/zester-mycenae-game-effects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup  id="zester-mycenae-antiquity-age-persist" scope="game" criteria="antiquity-age-persist">
+			<Actions>
+				<UpdateDatabase></UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+</Mod>

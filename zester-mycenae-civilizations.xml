@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_CIVILIZATION"/>
+		<InsertOrIgnore KIND="KIND_TRAIT"/>
+	</Kinds>
+	<Types>
+		<Row Type="CIVILIZATION_ZESTER_MYCENAE" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_ZESTER_MYCENAE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_ZESTER_MYCENAE_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" Name="LOC_CIVILIZATION_ZESTER_MYCENAE_NAME" FullName="LOC_CIVILIZATION_ZESTER_MYCENAE_FULLNAME" Description="LOC_CIVILIZATION_ZESTER_MYCENAE_DESCRIPTION" Adjective="LOC_CIVILIZATION_ZESTER_MYCENAE_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" AITargetCityPercentage="25" RandomCityNameDepth="10" UniqueCultureProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" CapitalName="LOC_CITY_NAME_ZESTER_MYCENAE1"/>
+	</Civilizations>
+	<LoadingInfo_Civilizations>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_ZESTER_MYCENAE" Subtitle="LOC_LOADING_INTRO_ZESTER_MYCENAE" Tip="LOC_LOADING_CIV_TIPS_TEXT_ZESTER_MYCENAE" BackgroundImageHigh="fs://game/lsbg_siam_1080.png" BackgroundImageLow="fs://game/lsbg_siam_720.png" ForegroundImage="fs://game/civ_line_siam.png"/>
+	</LoadingInfo_Civilizations>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" TraitType="TRAIT_ZESTER_MYCENAE"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" TraitType="TRAIT_ZESTER_MYCENAE_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_ZESTER_MYCENAE" Name="LOC_TRAIT_ZESTER_MYCENAE_NAME" Description="LOC_TRAIT_ZESTER_MYCENAE_DESCRIPTION" InternalOnly="true"/>
+		<Row TraitType="TRAIT_ZESTER_MYCENAE_ABILITY" Name="LOC_TRAIT_ZESTER_MYCENAE_ABILITY_NAME" Description="LOC_TRAIT_ZESTER_MYCENAE_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ZESTER_MYCENAE_ABILITY" ModifierId="TRAIT_MOD_ZESTER_PALACE_ECONOMY_TOWN_MALUS"/>
+		<Row TraitType="TRAIT_ZESTER_MYCENAE_ABILITY" ModifierId="TRAIT_MOD_ZESTER_PALACE_ECONOMY_CITY"/>
+		<Row TraitType="TRAIT_ZESTER_MYCENAE_ABILITY" ModifierId="TRAIT_MOD_ZESTER_PALACE_ECONOMY_TOWN_BUFF"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_AKSUM" TraitType="TRAIT_ANTIQUITY_CIV"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" TraitType="TRAIT_ZESTER_MYCENAE"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" TraitType="TRAIT_AKSUM_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" TraitType="TRAIT_ATTRIBUTE_CULTURAL"/>
+	</CivilizationTraits>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_MYCENAE"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_PYLOS"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_TIRYNS"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_MIDEA"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_ORCHOMENOS"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_THEBES"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_ATHENS"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_IOLCOS"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_GLA"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_ARGOS"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAEAN" CityName="LOC_CITY_NAME_ZESTER_CRISA"/>
+	</CityNames>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" TerrainType="TERRAIN_HILL" Score="15"/>
+	</StartBiasTerrains>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" BuildingCulture="BUILDING_CULTURE_MED"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" BuildingCulture="MOD_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" UnitCulture="Med"/>
+	</VisArt_CivilizationUnitCultures>
+</Database>

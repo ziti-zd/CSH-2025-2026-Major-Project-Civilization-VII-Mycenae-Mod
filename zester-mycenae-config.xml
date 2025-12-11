@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" CivilizationName="LOC_CIVILIZATION_ZESTER_MYCENAE_NAME" CivilizationFullName="LOC_CIVILIZATION_ZESTER_MYCENAE_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_ZESTER_MYCENAE_DESCRIPTION" CivilizationIcon="civ_sym_greece.png"/>
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" Type="TRAIT_ZESTER_MYCENAE_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_ZESTER_MYCENAE_ABILITY_NAME" Description="LOC_TRAIT_ZESTER_MYCENAE_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" Type="UNIT_ZESTER_OLIVE_OIL_MERCHANT" Kind="KIND_UNIT" Name="LOC_UNIT_ZESTER_OLIVE_OIL_MERCHANT_NAME" Description="LOC_UNIT_ZESTER_OLIVE_OIL_MERCHANT_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" Type="UNIT_ZESTER_TUSK_HELMED_SPEARMAN" Kind="KIND_UNIT" Name="LOC_UNIT_ZESTER_TUSK_HELMED_SPEARMAN_NAME" Description="LOC_UNIT_ZESTER_TUSK_HELMED_SPEARMAN_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" Type="QUARTER_ZESTER_WANAX_PALACE" Kind="KIND_QUARTER" Name="LOC_QUARTER_ZESTER_WANAX_PALACE_NAME" Description="LOC_QUARTER_ZESTER_WANAX_PALACE_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" Type="BUILDING_ZESTER_CYCLOPEAN_WALL" Kind="KIND_BUILDING" Name="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_NAME" Description="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" Type="BUILDING_ZESTER_MEGARON" Kind="KIND_BUILDING" Name="LOC_BUILDING_ZESTER_MEGARON_NAME" Description="LOC_BUILDING_ZESTER_MEGARON_DESCRIPTION"/>
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" TagType="TAG_TRAIT_EXPANSIONIST"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" TagType="TAG_TRAIT_MILITARISTIC"/>
+	</CivilizationTags>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_NORMAN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_NORMAN_NAME" Description="LOC_CIVILIZATION_NORMAN_DESCRIPTION" Icon="CIVILIZATION_NORMAN"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SPAIN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SPAIN_NAME" Description="LOC_CIVILIZATION_SPAIN_DESCRIPTION" Icon="CIVILIZATION_SPAIN"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ZESTER_MYCENAE" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_RUSSIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_RUSSIA_NAME" Description="LOC_CIVILIZATION_RUSSIA_DESCRIPTION" Icon="CIVILIZATION_RUSSIA"/>
+	</CivilizationUnlocks>
+	<LeaderCivilizationBias></LeaderCivilizationBias>
+</Database>

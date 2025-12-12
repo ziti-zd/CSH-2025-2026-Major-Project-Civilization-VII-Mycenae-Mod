@@ -1,45 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Types>
-		<Row Type="TREE_CIVICS_ZESTER_MYCENAE" Kind="KIND_TREE"/>
-		<Row Type="CIVIC_ZESTER_TOMB_BUILDING" Kind="KIND_TREE_NODE"/>
-		<Row Type="CIVIC_ZESTER_CYCLOPEAN_MASONRY" Kind="KIND_TREE_NODE"/>
-		<Row Type="CIVIC_ZESTER_MEDITERRANEAN_TRADE" Kind="KIND_TREE_NODE"/>
-		<Row Type="CIVIC_ZESTER_WARRIOR_ELITE" Kind="KIND_TREE_NODE"/>
+		<Row Type="TREE_CIVICS_ZESTER_MYCENAE" 
+			 Kind="KIND_TREE"/>
+		<Row Type="CIVIC_ZESTER_TOMB_BUILDING" 
+			 Kind="KIND_TREE_NODE"/>
+		<Row Type="CIVIC_ZESTER_CYCLOPEAN_MASONRY" 
+			 Kind="KIND_TREE_NODE"/>
+		<Row Type="CIVIC_ZESTER_MEDITERRANEAN_TRADE" 
+			 Kind="KIND_TREE_NODE"/>
+		<Row Type="CIVIC_ZESTER_WARRIOR_ELITE" 
+			 Kind="KIND_TREE_NODE"/>
 	</Types>
 	<ProgressionTrees>
-		<Row ProgressionTreeType="TREE_CIVICS_ZESTER_MYCENAE" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_ZESTER_MYCENAE_NAME"/>
+		<Row ProgressionTreeType="TREE_CIVICS_ZESTER_MYCENAE" 
+			 AgeType="AGE_ANTIQUITY" 
+			 SystemType="SYSTEM_CULTURE" 
+			 Name="LOC_TREE_CIVICS_ZESTER_MYCENAE_NAME"/>
 	</ProgressionTrees>
 	<TypeQuotes>
-		<Row Type="CIVIC_ZESTER_TOMB_BUILDING" Quote="LOC_CIVIC_ZESTER_TOMB_BUILDING_QUOTE" QuoteAuthor="LOC_CIVIC_ZESTER_TOMB_BUILDING_AUTHOR"/>
-		<Row Type="CIVIC_ZESTER_CYCLOPEAN_MASONRY" Quote="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_QUOTE" QuoteAuthor="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_AUTHOR"/>
-		<Row Type="CIVIC_ZESTER_MEDITERRANEAN_TRADE" Quote="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_QUOTE" QuoteAuthor="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_AUTHOR"/>
-		<Row Type="CIVIC_ZESTER_WARRIOR_ELITE" Quote="LOC_CIVIC_ZESTER_WARRIOR_ELITE_QUOTE" QuoteAuthor="LOC_CIVIC_ZESTER_WARRIOR_ELITE_AUTHOR"/>
+		<Row Type="CIVIC_ZESTER_TOMB_BUILDING" 
+			 Quote="LOC_CIVIC_ZESTER_TOMB_BUILDING_QUOTE" 
+			 QuoteAuthor="LOC_CIVIC_ZESTER_TOMB_BUILDING_AUTHOR"/>
+		<Row Type="CIVIC_ZESTER_CYCLOPEAN_MASONRY" 
+			 Quote="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_QUOTE" 
+			 QuoteAuthor="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_AUTHOR"/>
+		<Row Type="CIVIC_ZESTER_MEDITERRANEAN_TRADE" 
+			 Quote="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_QUOTE" QuoteAuthor="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_AUTHOR"/>
+		<Row Type="CIVIC_ZESTER_WARRIOR_ELITE" 
+			 Quote="LOC_CIVIC_ZESTER_WARRIOR_ELITE_QUOTE" 
+			 QuoteAuthor="LOC_CIVIC_ZESTER_WARRIOR_ELITE_AUTHOR"/>
 	</TypeQuotes>
 	<ProgressionTreeNodes>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_TOMB_BUILDING" ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" Cost="180" Name="LOC_CIVIC_ZESTER_TOMB_BUILDING_NAME" IconString="cult_zester_mycenae"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" Cost="300" Name="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_NAME" IconString="cult_zester_mycenae"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE" ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" Cost="480" Name="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_NAME" IconString="cult_zester_mycenae"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" Cost="480" Name="LOC_CIVIC_ZESTER_WARRIOR_ELITE_NAME" IconString="cult_zester_mycenae"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_TOMB_BUILDING" 
+			 ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" 
+			 Cost="180" 
+			 Name="LOC_CIVIC_ZESTER_TOMB_BUILDING_NAME" 
+			 IconString="cult_zester_mycenae"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" 
+			 ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" 
+			 Cost="300" 
+			 Name="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_NAME" 
+			 IconString="cult_zester_mycenae"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE" 
+			 ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" 
+			 Cost="480" 
+			 Name="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_NAME" 
+			 IconString="cult_zester_mycenae"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" 
+			 ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" 
+			 Cost="480" Name="LOC_CIVIC_ZESTER_WARRIOR_ELITE_NAME" 
+			 IconString="cult_zester_mycenae"/>
 	</ProgressionTreeNodes>
 	<ProgressionTreePrereqs>
-		<Row Node="CIVIC_ZESTER_CYCLOPEAN_MASONRY" PrereqNode="CIVIC_ZESTER_TOMB_BUILDING"/>
-		<Row Node="CIVIC_ZESTER_MEDITERRANEAN_TRADE" PrereqNode="CIVIC_ZESTER_CYCLOPEAN_MASONRY"/>
-		<Row Node="CIVIC_ZESTER_WARRIOR_ELITE" PrereqNode="CIVIC_ZESTER_CYCLOPEAN_MASONRY"/>
+		<Row Node="CIVIC_ZESTER_CYCLOPEAN_MASONRY" 
+			 PrereqNode="CIVIC_ZESTER_TOMB_BUILDING"/>
+		<Row Node="CIVIC_ZESTER_MEDITERRANEAN_TRADE" 
+			 PrereqNode="CIVIC_ZESTER_CYCLOPEAN_MASONRY"/>
+		<Row Node="CIVIC_ZESTER_WARRIOR_ELITE" 
+			 PrereqNode="CIVIC_ZESTER_CYCLOPEAN_MASONRY"/>
 	</ProgressionTreePrereqs>
 	<ProgressionTreeNodeUnlocks>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_CHIEFDOM" TargetKind="KIND_MODIFIER" TargetType="MOD_REVEAL_CIV_CULTURE_TREE_ZESTER_MYCENAE" UnlockDepth="1" Hidden="true"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_ZESTER_CYCLOPEAN_WALL" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_TOMB_BUILDING" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_ZESTER_MEGARON" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_ZESTER_LION_GATE" UnlockDepth="2" AIIgnoreUnlockValue="true"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_TOMB_BUILDING" TargetKind="KIND_TRADITION" TargetType="TRADITION_ZESTER_GRAVE_GOODS" UnlockDepth="2"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" TargetKind="KIND_TRADITION" TargetType="TRADITION_ZESTER_CYCLOPEAN_MASONRY" UnlockDepth="2"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" TargetKind="KIND_TRADITION" TargetType="TRADITION_ZESTER_HOMERIC_LEGEND" UnlockDepth="2"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_TOMB_BUILDING" TargetKind="KIND_MODIFIER" TargetType="MOD_ZESTER_PALACE_GOLD" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" TargetKind="KIND_MODIFIER" TargetType="MOD_ZESTER_FORTIFICATION_PRODUCTION_BUFF" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE" TargetKind="KIND_MODIFIER" TargetType="MOD_ZESTER_TRADE_ROUTE_RANGE_BUFF" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE" TargetKind="KIND_MODIFIER" TargetType="MOD_ZESTER_GOLD_PER_TRADE_ROUTE" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" TargetKind="KIND_MODIFIER" TargetType="MOD_ZESTER_COMMANDER_PROMOTIONS" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" TargetKind="KIND_MODIFIER" TargetType="MOD_ZESTER_SETTLEMENT_LIMIT" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_CHIEFDOM" 
+			 TargetKind="KIND_MODIFIER" 
+			 TargetType="MOD_REVEAL_CIV_CULTURE_TREE_ZESTER_MYCENAE" 
+			 UnlockDepth="1" 
+			 Hidden="true"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" 
+			 TargetKind="KIND_CONSTRUCTIBLE" 
+			 TargetType="BUILDING_ZESTER_CYCLOPEAN_WALL" 
+			 UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_TOMB_BUILDING" 
+			 TargetKind="KIND_CONSTRUCTIBLE" 
+			 TargetType="BUILDING_ZESTER_MEGARON" 
+			 UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" 
+			 TargetKind="KIND_CONSTRUCTIBLE" 
+			 TargetType="WONDER_ZESTER_LION_GATE" 
+			 UnlockDepth="2" 
+			 AIIgnoreUnlockValue="true"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_TOMB_BUILDING" 
+			 TargetKind="KIND_TRADITION" 
+			 TargetType="TRADITION_ZESTER_GRAVE_GOODS" 
+			 UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" 
+			 TargetKind="KIND_TRADITION" 
+			 TargetType="TRADITION_ZESTER_CYCLOPEAN_MASONRY" 
+			 UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" 
+			 TargetKind="KIND_TRADITION" 
+			 TargetType="TRADITION_ZESTER_HOMERIC_LEGEND" 
+			 UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_TOMB_BUILDING" 
+			 TargetKind="KIND_MODIFIER" 
+			 TargetType="MOD_ZESTER_PALACE_GOLD" 
+			 UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" 
+			 TargetKind="KIND_MODIFIER" 
+			 TargetType="MOD_ZESTER_FORTIFICATION_PRODUCTION_BUFF" 
+			 UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE" 
+			 TargetKind="KIND_MODIFIER" 
+			 TargetType="MOD_ZESTER_TRADE_ROUTE_RANGE_BUFF" 
+			 UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE" 
+			 TargetKind="KIND_MODIFIER" 
+			 TargetType="MOD_ZESTER_GOLD_PER_TRADE_ROUTE" 
+			 UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" 
+			 TargetKind="KIND_MODIFIER" 
+			 TargetType="MOD_ZESTER_COMMANDER_PROMOTIONS" 
+			 UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" 
+			 TargetKind="KIND_MODIFIER" 
+			 TargetType="MOD_ZESTER_SETTLEMENT_LIMIT" 
+			 UnlockDepth="2"/>
 	</ProgressionTreeNodeUnlocks>
 </Database>

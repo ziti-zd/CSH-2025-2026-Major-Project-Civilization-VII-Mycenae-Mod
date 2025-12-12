@@ -7,18 +7,40 @@
 		<Row ListType="Mycenae Constructibles Biases"/>
 	</AiListTypes>
 	<AiLists>
-		<Row ListType="Mycenae Unit Biases" LeaderType="TRAIT_ZESTER_MYCENAE" System="UnitBiases"/>
-		<Row ListType="Mycenae Government Bias" LeaderType="TRAIT_ZESTER_MYCENAE" System="GovernmentBiases"/>
-		<Row ListType="Mycenae Constructibles Biases" LeaderType="TRAIT_ZESTER_MYCENAE" System="ConstructibleBiases"/>"
+		<Row ListType="Mycenae Unit Biases" 
+			 LeaderType="TRAIT_ZESTER_MYCENAE" 
+			 System="UnitBiases"/>
+		<Row ListType="Mycenae Government Bias" 
+			 LeaderType="TRAIT_ZESTER_MYCENAE" 
+			 System="GovernmentBiases"/>
+		<Row ListType="Mycenae Constructibles Biases" 
+			 LeaderType="TRAIT_ZESTER_MYCENAE" 
+			 System="ConstructibleBiases"/>"
 	</AiLists>
 	<AiFavoredItems>
-		<Row ListType="Mycenae Unit Biases" Item="UNIT_ZESTER_TUSK_HELMED_SPEARMAN" Value="100"/>
-		<Row ListType="Mycenae Unit Biases" Item="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_2" Value="50"/>
-		<Row ListType="Mycenae Unit Biases" Item="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_3" Value="25"/>
-		<Row ListType="Mycenae Unit Biases" Item="UNIT_ZESTER_OLIVE_OIL_MERCHANT" Value="50"/>
-		<Row ListType="Mycenae Government Bias" Item="GOVERNMENT_AUTOCRACY" Value="50"/>
-		<Row ListType="Mycenae Constructibles Biases" Item="BUILDING_ZESTER_CYCLOPEAN_WALL" Value="200"/>
-		<Row ListType="Mycenae Constructibles Biases" Item="BUILDING_ZESTER_MEGARON" Value="200"/>
-		<Row ListType="Mycenae Constructibles Biases" Item="BUILDING_ANCIENT_WALLS" Value="100"/>
+		<Row ListType="Mycenae Unit Biases" 
+			 Item="UNIT_ZESTER_TUSK_HELMED_SPEARMAN" 
+			 Value="100"/>
+		<Row ListType="Mycenae Unit Biases" 
+			 Item="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_2" 
+			 Value="50"/>
+		<Row ListType="Mycenae Unit Biases"
+			 Item="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_3" 
+			 Value="25"/>
+		<Row ListType="Mycenae Unit Biases" 
+			 Item="UNIT_ZESTER_OLIVE_OIL_MERCHANT" 
+			 Value="50"/>
+		<Row ListType="Mycenae Government Bias" 
+			 Item="GOVERNMENT_AUTOCRACY" 
+			 Value="50"/>
+		<Row ListType="Mycenae Constructibles Biases" 
+			 Item="BUILDING_ZESTER_CYCLOPEAN_WALL" 
+			 Value="200"/>
+		<Row ListType="Mycenae Constructibles Biases" 
+			 Item="BUILDING_ZESTER_MEGARON" 
+			 Value="200"/>
+		<Row ListType="Mycenae Constructibles Biases" 
+			 Item="BUILDING_ANCIENT_WALLS" 
+			 Value="100"/>
 	</AiFavoredItems>
 </Database>

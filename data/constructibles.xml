@@ -5,27 +5,77 @@
 	</Kinds>
 	<Types>
 		<!-- Civ Unique Buildings -->
-		<Row Type="BUILDING_ZESTER_MEGARON" Kind="KIND_CONSTRUCTIBLE"/>
-		<Row Type="BUILDING_ZESTER_CYCLOPEAN_WALL" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_ZESTER_MEGARON" 
+			 Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_ZESTER_CYCLOPEAN_WALL" 
+			 Kind="KIND_CONSTRUCTIBLE"/>
 		<!-- Civ Unique Quarters -->
-		<Row Type="QUARTER_ZESTER_WANAX_PALACE" Kind="KIND_QUARTER"/>
+		<Row Type="QUARTER_ZESTER_WANAX_PALACE" 
+			 Kind="KIND_QUARTER"/>
+		<Row Type="WONDER_ZESTER_LION_GATE"
+			 Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<TypeTags>
+		<Row Type="BUILDING_ZESTER_MEGARON"
+			 Tag="HAPPINESS"/>
+		<Row Type="BUILDING_ZESTER_MEGARON"
+			 Tag="UNIQUE"/>
+		<Row Type="BUILDING_ZESTER_MEGARON"
+			 Tag="AGELESS"/>
+		<Row Type="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 Tag="PRODUCTION"/>
+		<Row Type="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 Tag="UNIQUE"/>
+		<Row Type="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 Tag="AGELESS"/>
+		<Row Type="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 Tag="FORTIFICATION"/>
+		<Row Type="WONDER_ZESTER_LION_GATE"
+			 Tag="AGELESS"/>
 	</TypeTags>
 	<TypeQuotes>
-        <Row Type="WONDER_ZESTER_LION_GATE" Quote="LOC_QUOTE_WONDER_ZESTER_LION_GATE" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_ZESTER_LION_GATE" QuoteAudio="VO_Quote_AngkorWat"/>
+        <Row Type="WONDER_ZESTER_LION_GATE" 
+			 Quote="LOC_QUOTE_WONDER_ZESTER_LION_GATE" 
+			 QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_ZESTER_LION_GATE" 
+			 QuoteAudio="VO_Quote_AngkorWat"/>
 	</TypeQuotes>
 	<Constructibles>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_ZESTER_MEGARON" Name="LOC_BUILDING_ZESTER_MEGARON_NAME" Description="LOC_BUILDING_ZESTER_MEGARON_DESCRIPTION" Tooltip="LOC_BUILDING_ZESTER_MEGARON_TOOLTIP" ConstructibleClass="BUILDING" Cost="135" Population="1" Age="AGE_ANTIQUITY"/>
-		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL" Name="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_NAME" Description="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_DESCRIPTION" Tooltip="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_TOOLTIP" ConstructibleClass="BUILDING" Cost="135" Population="1" Age="AGE_ANTIQUITY"/>
-		<!--Wonders-->
-		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" Name="LOC_WONDER_ZESTER_LION_GATE_NAME" Description="LOC_WONDER_ZESTER_LION_GATE_DESCRIPTION" Tooltip="LOC_WONDER_ZESTER_LION_GATE_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON" 
+			 Name="LOC_BUILDING_ZESTER_MEGARON_NAME" 
+			 Description="LOC_BUILDING_ZESTER_MEGARON_DESCRIPTION" 
+			 Tooltip="LOC_BUILDING_ZESTER_MEGARON_TOOLTIP" 
+			 ConstructibleClass="BUILDING" 
+			 Cost="135" 
+			 Population="1" 
+			 Age="AGE_ANTIQUITY"
+			 CostProgressionModel="COST_PROGRESSION_PREVIOUS_BUILDINGS_CITY"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 Name="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_NAME"
+			 Description="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_DESCRIPTION"
+			 Tooltip="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_TOOLTIP"
+			 ConstructibleClass="BUILDING"
+			 Cost="135"
+			 Population="1"
+			 Age="AGE_ANTIQUITY"
+			 CostProgressionModel="COST_PROGRESSION_PREVIOUS_BUILDINGS_CITY"/>
+		<!-- Wonder -->
+		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" 
+			 Name="LOC_WONDER_ZESTER_LION_GATE_NAME" 
+			 Description="LOC_WONDER_ZESTER_LION_GATE_DESCRIPTION" 
+			 Tooltip="LOC_WONDER_ZESTER_LION_GATE_TOOLTIP" 
+			 ConstructibleClass="WONDER" 
+			 Cost="275" 
+			 Population="0" 
+			 ImmuneDamage="true" 
+			 Age="AGE_ANTIQUITY" 
+			 RequiresUnlock="true" />
 	</Constructibles>
 	<Improvements>
 	</Improvements>
 	<Wonders>
-		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" MaxWorldInstances="1"/>
+		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" 
+			 MaxWorldInstances="1"/>
 	</Wonders>
 	<Constructible_RequiredFeatureClasses>
 		<!-- Check Base/modules/base-standard/data/terrain.xml -->
@@ -35,29 +85,117 @@
 	<Constructible_ValidTerrains>
 	</Constructible_ValidTerrains>
 	<Constructible_ValidDistricts>
-		<!--Wonders-->
-		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" DistrictType="DISTRICT_WONDER"/>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 DistrictType="DISTRICT_URBAN"/>
+		<!-- Wonder -->
+		<Row ConstructibleType="WONDER_ZESTER_LION_GATE"
+			 DistrictType="DISTRICT_WONDER"/>
 	</Constructible_ValidDistricts>
 	<Constructible_YieldChanges>
-		<!--Wonders-->
-		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" YieldType="YIELD_HAPPINESS" YieldChange="2"/>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 YieldType="YIELD_HAPPINESS"
+			 YieldChange="3"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 YieldType="YIELD_PRODUCTION"
+			 YieldChange="3"/>
+		<!-- Wonder -->
+		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" 
+			 YieldType="YIELD_PRODUCTION" 
+			 YieldChange="3"/>
 	</Constructible_YieldChanges>
+	<Constructible_Maintenances>
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 YieldType="YIELD_GOLD"
+			 Amount="2"/>
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 YieldType="YIELD_HAPPINESS"
+			 Amount="2"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 YieldType="YIELD_GOLD"
+			 Amount="2"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 YieldType="YIELD_HAPPINESS"
+			 Amount="2"/>
+	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 YieldChangeId="ZesterQuarterGold"/>
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 YieldChangeId="ZesterWonderGold"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 YieldChangeId="ZesterWonderProduction"/>
 	</Constructible_Adjacencies>
 	<Constructible_Advisories>
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 AdvisoryClassType="ADVISORY_CLASS_HAPPINESS"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 AdvisoryClassType="ADVISORY_CLASS_DEFENSE"/>
 	</Constructible_Advisories>
 	<Adjacency_YieldChanges>
-		<Row ID="PrefixImprovementAdjacency" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
+		<Row ID="ZesterQuarterGold" 
+			 YieldType="YIELD_GOLD" 
+			 YieldChange="1" 
+			 TilesRequired="1" 
+			 AdjacentQuarter="true"/>
+		<Row ID="ZesterWonderGold"
+			 YieldType="YIELD_GOLD"
+			 YieldChange="1"
+			 TilesRequired="1"
+			 AdjacenDistrict="DISTRICT_WONDER"/>
+		<Row ID="ZesterWonderProduction"
+			 YieldType="YIELD_PRODUCTION"
+			 YieldChange="1"
+			 TilesRequired="1"
+			 AdjacentDistrict="DISTRICT_WONDER"/>
 	</Adjacency_YieldChanges>
 	<Constructible_Plunders>
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 PlunderType="PLUNDER_HEAL"
+			 Amount="40"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 PlunderType="PLUNDER_HEAL"
+			 Amount="40"/>
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
+		<!-- Cyclopean Wall Influence -->
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 ModifierId="MOD_ZESTER_CYCLOPEAN_WALL_DIPLOMACY"/>
 		<!--Wonders-->
-		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" ModifierId="MOD_ZESTER_LION_GATE_GOLD_FROM_EXCESS_HAPPINESS"/>
+		<Row ConstructibleType="WONDER_ZESTER_LION_GATE"
+			 ModifierId="MOD_ZESTER_LION_GATE_FOOD_ON_FORTIFICATIONS"/>
+		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" 
+			 ModifierId="MOD_ZESTER_LION_GATE_PRODUCTION_ON_FORTIFICATIONS"/>		
 	</ConstructibleModifiers>
+	<Constructible_BuildingCostProgressions>
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 Percent="5"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 Percent="5"/>
+	</Constructible_BuildingCostProgressions>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_ZESTER_WANAX_PALACE" BuildingType1="BUILDING_ZESTER_MEGARON" BuildingType2="BUILDING_ZESTER_CYCLOPEAN_WALL" Name="LOC_QUARTER_ZESTER_WANAX_PALACE_NAME" Description="LOC_QUARTER_ZESTER_WANAX_PALACE_DESCRIPTION" Tooltip="LOC_QUARTER_ZESTER_WANAX_PALACE_TOOLTIP" TraitType="TRAIT_ZESTER_MYCENAE"/>
+		<Row UniqueQuarterType="QUARTER_ZESTER_WANAX_PALACE" 
+			 BuildingType1="BUILDING_ZESTER_MEGARON" 
+			 BuildingType2="BUILDING_ZESTER_CYCLOPEAN_WALL" 
+			 Name="LOC_QUARTER_ZESTER_WANAX_PALACE_NAME" 
+			 Description="LOC_QUARTER_ZESTER_WANAX_PALACE_DESCRIPTION" 
+			 Tooltip="LOC_QUARTER_ZESTER_WANAX_PALACE_TOOLTIP" 
+			 TraitType="TRAIT_ZESTER_MYCENAE"/>
 	</UniqueQuarters>
+	<GameModifiers>
+		<Row ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_PER_FORTIFICATION"/>
+		<Row ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_PRODUCTION_PER_FORTIFICATION"/>
+		<Row ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_GOLD_PER_FORTIFICATION"/>
+	</GameModifiers>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>

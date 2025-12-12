@@ -169,12 +169,10 @@
 	<ConstructibleModifiers>
 		<!-- Cyclopean Wall Influence -->
 		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
-			 ModifierId="MOD_ZESTER_CYCLOPEAN_WALL_DIPLOMACY"/>
+			 ModifierId="MOD_ZESTER_CYCLOPEAN_WALL_INFLUENCE_ON_ROUGH"/>
 		<!--Wonders-->
-		<Row ConstructibleType="WONDER_ZESTER_LION_GATE"
-			 ModifierId="MOD_ZESTER_LION_GATE_FOOD_ON_FORTIFICATIONS"/>
 		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" 
-			 ModifierId="MOD_ZESTER_LION_GATE_PRODUCTION_ON_FORTIFICATIONS"/>		
+			 ModifierId="MOD_ZESTER_LION_GATE_FORTIFICATION_PRODUCTION"/>
 	</ConstructibleModifiers>
 	<Constructible_BuildingCostProgressions>
 		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"

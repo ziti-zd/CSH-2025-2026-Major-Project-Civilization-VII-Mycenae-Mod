@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<Row Tag="LOC_UNIT_ZESTER_OLIVE_OIL_MERCHANT_NAME">
-			<Text>Olive Oil Merchant</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_ZESTER_OLIVE_OIL_MERCHANT_DESCRIPTION">
-			<Text>Grants +35 [icon:YIELD_GOLD] Gold for each [icon:RADIAL_RESOURCES] Resource acquired when creating a naval [icon:TRADE_ROUTE]Trade Route.</Text>
-		</Row>
 		<Row Tag="LOC_UNIT_ZESTER_TUSK_HELMED_SPEARMAN_NAME">
 			<Text>Tusk-Helmed Spearman</Text>
 		</Row>
@@ -21,6 +15,12 @@
 		</Row>
 		<Row Tag="LOC_UNIT_ZESTER_TUSK_HELMED_SPEARMAN_3_DESCRIPTION">
 			<Text>Tier 3 Mycenaean Unique Infantry Unit. Heals +10 HP from Pillaging any tile. Suffers no [icon:Action_Move] Movement penalties from Embarking or Disembarking.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZESTER_OLIVE_OIL_MERCHANT_NAME">
+			<Text>Olive Oil Merchant</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZESTER_OLIVE_OIL_MERCHANT_DESCRIPTION">
+			<Text>Grants +35 [icon:YIELD_GOLD] Gold for each [icon:RADIAL_RESOURCES] Resource acquired when creating a naval [icon:TRADE_ROUTE]Trade Route.</Text>
 		</Row>
 	</EnglishText>
 </Database>

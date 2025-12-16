@@ -20,7 +20,7 @@
 			<Text>Olive Oil Merchant</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ZESTER_OLIVE_OIL_MERCHANT_DESCRIPTION">
-			<Text>Mycenaean Unique Merchant. Civilian who can establish a [icon:TRADE_ROUTE] Trade Route to import [icon:RADIAL_RESOURCES] Resources from a foreign Settlement. Gain 35 [icon:YIELD_GOLD] Gold for each [icon:RADIAL_RESOURCES] Resource acquired when creating a naval [icon:TRADE_ROUTE] Trade Route.</Text>
+			<Text>Mycenaean Unique Merchant. Civilian who can establish a [icon:TRADE_ROUTE] Trade Route to import [icon:RADIAL_RESOURCES] Resources from a foreign Settlement. Gain 35 [icon:YIELD_GOLD] Gold for each [icon:RADIAL_RESOURCES] Resource acquired when creating a [icon:TRADE_ROUTE] Naval Trade Route.</Text>
 		</Row>
 	</EnglishText>
 </Database>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<!-- WIP. This is where you would put civic quotes, which you don't have yet. -->
+	<Row Tag="LOC_TREE_CIVICS_ZESTER_MYCENAE_NAME">
+		<Text>Mycenaean Civics</Text>
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_TOMB_BUILDING_NAME">
+		<Text>Tomb-Building</Text>
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_TOMB_BUILDING_QUOTE">
+		<!-- Do the "ostentatious waste" sentence from "The Greeks"-->
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_TOMB_BUILDING_AUTHOR">
+		<!-- Attribute author of "The Greeks"-->
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_NAME">
+		<Text>Cyclopean Masonry</Text>
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_QUOTE">
+		<!-- Unsure what to do for the text.-->
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_AUTHOR">
+		<!-- Unsure what to do for the text.-->
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_NAME">
+		<Text>Mediterranean Trade</Text>
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_QUOTE">
+		<!-- There is probably something about Mycenaean pottery ending up all around the Mediterranean in "The Greeks."-->
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_AUTHOR">
+		<!-- Attribute author of "The Greeks"-->
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_WARRIOR_ELITE_NAME">
+		<Text>Warrior Elite</Text>
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_WARRIOR_ELITE_QUOTE">
+		<!-- Something from the Odyssey or the Iliad.-->
+	</Row>
+	<Row Tag="LOC_CIVIC_ZESTER_WARRIOR_ELITE_AUTHOR">
+		<Text>Homer</Text>
+	</Row>
+	<Row Tag="LOC_MOD_ZESTER_PALACE_GOLD_DESCRIPTION">
+		<Text>+10 [icon:YIELD_GOLD] Gold on the Palace.</Text>
+	</Row>
+	<Row Tag="LOC_MOD_ZESTER_FORTIFICATION_PRODUCTION_BUFF_DESCRIPTION">
+		<Text>+50% [icon:YIELD_PRODUCTION] Production towards [icon:Action_Fortify] Fortifications.</Text>
+	</Row>
+	<Row Tag="LOC_MOD_ZESTER_TRADE_ROUTE_RANGE_BUFF_DESCRIPTION">
+		<Text>+10 [icon:TRADE_ROUTE] Trade Route Range.</Text>
+	</Row>
+	<Row Tag="LOC_MOD_ZESTER_GOLD_PER_TRADE_ROUTE_DESCRIPTION">
+		<Text>+2 [icon:YIELD_GOLD] Gold for each active [icon:TRADE_ROUTE] Trade Route.</Text>
+	</Row>
+	<Row Tag="LOC_MOD_ZESTER_COMMANDER_PROMOTIONS_DESCRIPTION">
+		<Text>[icon:UNIT_ARMY_COMMANDER] Army Commanders receive the [icon:NAR_REW_PROMOTION] Zeal and Looting Promotions for free.</Text>
+	</Row>
+	<Row Tag="LOC_MOD_ZESTER_SETTLEMENT_LIMIT_DESCRIPTION">
+		<Text>+1 [icon:SETTLEMENT_LIMIT] Settlement Limit.</Text>
+	</Row>
+	<Row Tag="LOC_TRADITION_ZESTER_GRAVE_GOODS_NAME">
+		<Text>Grave Goods</Text>
+	</Row>
+	<Row Tag="LOC_TRADITION_ZESTER_GRAVE_GOODS_DESCRIPTION">
+		<Text>+4 [icon:YIELD_GOLD] Gold on [icon:YIELD_HAPPINESS] Happiness Buildings.</Text>
+	</Row>
+	<Row Tag="LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_NAME">
+		<Text>Cyclopean Masonry</Text>
+	</Row>
+	<Row Tag="LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION" Language="en_US">
+		<Text>+1 [icon:YIELD_FOOD] Food and +1 [icon:YIELD_PRODUCTION] Production on [icon:Action_Fortify] Fortifications.</Text>
+	</Row>
+	<Row Tag="LOC_TRADITION_ZESTER_HOMERIC_LEGEND_NAME" Language="en_US">
+		<Text>Homeric Legend</Text>
+	</Row>
+	<Row Tag="LOC_TRADITION_ZESTER_HOMERIC_LEGEND_DESCRIPTION" Language="en_US">
+		<Text>When one of your Land Military Units defeats an enemy Unit, gain [icon:YIELD_GOLD] Gold equal to 100% of its [icon:NAR_REW_COMBAT] Combat Strength.</Text>
+	</Row>
+</Database>

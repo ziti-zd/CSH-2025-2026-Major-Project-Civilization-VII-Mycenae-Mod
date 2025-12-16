@@ -66,6 +66,7 @@
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/traditions.xml</Item>
 					<Item>data/wonders.xml</Item>
+					<Item>data/loading-info.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CityNamesText.xml</Item>

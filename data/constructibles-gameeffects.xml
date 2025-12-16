@@ -11,6 +11,8 @@
 				<Argument name="ConstructibleType">BUILDING_ZESTER_CYCLOPEAN_WALL</Argument>
 			</Requirement>
 		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">2</Argument>
 	</Modifier>
 	<Modifier id="MOD_ZESTER_LION_GATE_FORTIFICATION_PRODUCTION"
 			  collection="COLLECTION_OWNER"

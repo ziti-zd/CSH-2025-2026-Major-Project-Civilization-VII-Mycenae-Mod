@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNOCK_PLAY_AS_ZESTER_MYCENAE_DESCRIPTION">
+			<Text>Play as [B]Mycenae[/B].</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNLOCK_PLAY_AS_MACHIAVELLI_ZESTER_MYCENAE_TOOLTIP">
+			<Text>[B]{LOC_LEADER_MACHIAVELLI_NAME}[/B] lived across the sea from [B]Mycenae[/B].</Text>
+		</Row>
+	</EnglishText>
+</Database>

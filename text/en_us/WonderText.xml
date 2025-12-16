@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_WONDER_ZESTER_LION_GATE_NAME">
+			<Text>Lion Gate</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_ZESTER_LION_GATE_DESCRIPTION">
+			<Text>+1 [icon:YIELD_PRODUCTION] Production on [icon:Action_Fortify] Fortifications in all Settlements. Acts as a [icon:CITY_FORTIFIED] Fortified District that must be conquered. Ageless. Must be placed on Rough Terrain.</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_ZESTER_LION_GATE_TOOLTIP">
+			<Text>+1 [icon:YIELD_PRODUCTION] Production on [icon:Action_Fortify] Fortifications in all Settlements. Acts as a [icon:CITY_FORTIFIED] Fortified District that must be conquered. [N]Must be placed on Rough Terrain.</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_WONDER_ZESTER_LION_GATE">
+			<!-- Nothing picked yet.-->
+		</Row>
+		<Row Tag="LOC_QUOTE_AUTHOR_WONDER_ZESTER_LION_GATE">
+			<!-- Nothing picked yet.-->
+		</Row>
+	</EnglishText>
+</Database>

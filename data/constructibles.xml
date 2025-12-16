@@ -83,6 +83,7 @@
 	<Constructible_ValidBiomes>
 	</Constructible_ValidBiomes>
 	<Constructible_ValidTerrains>
+		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" TerrainType="TERRAIN_HILL"/>
 	</Constructible_ValidTerrains>
 	<Constructible_ValidDistricts>
 		<!-- Civ Unique Buildings -->
@@ -105,10 +106,6 @@
 			 YieldChange="3"/>
 		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
 			 YieldType="YIELD_PRODUCTION"
-			 YieldChange="3"/>
-		<!-- Wonder -->
-		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" 
-			 YieldType="YIELD_PRODUCTION" 
 			 YieldChange="3"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>

@@ -20,20 +20,8 @@
 			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE" />
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">100</Argument>
+		<Argument name="Amount">50</Argument>
 		<Argument name="PercentMultiplier">true</Argument>
-	</Modifier>
-	<!-- Food in Towns -->
-	<Modifier id="TRAIT_MOD_ZESTER_PALACE_ECONOMY_TOWN_BUFF" 
-			  collection="COLLECTION_PLAYER_CITIES" 
-			  effect="EFFECT_CITY_ADJUST_GROWTH">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_TOWN" />
-			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT" inverse="true">
-				<Argument name="HasAnyProject">true</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Percent">50</Argument>
 	</Modifier>
 	<!-- Wonder Bonus -->
 	<Modifier id="TRAIT_MOD_ZESTER_MYCENAE_WONDER_PRODUCTION" 

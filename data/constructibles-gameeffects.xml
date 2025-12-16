@@ -67,4 +67,14 @@
 		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
+	<Modifier id="MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_IN_TOWNS"
+			  collection="COLLECTION_PLAYER_CITIES"
+			  effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true">
+			</Requirement>
+			<Argument name="YieldType">YIELD_FOOD</Argument>
+			<Argument name="Amount">1</Argument>
+		</SubjectRequirements>
+	</Modifier>
 </GameEffects>

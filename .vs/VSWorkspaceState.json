@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\config",
+    "\\data"
   ],
-  "SelectedNode": "\\zester-mycenae-config.xml",
+  "SelectedNode": "\\data\\constructibles-gameeffects.xml",
   "PreviewInSolutionExplorer": false
 }

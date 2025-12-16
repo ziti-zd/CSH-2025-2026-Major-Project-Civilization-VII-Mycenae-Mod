@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_QUARTER_ZESTER_WANAX_PALACE_NAME">
+			<Text>Wanax Palace</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_ZESTER_WANAX_PALACE_DESCRIPTION">
+			<Text>Mycenaean Unique Quarter. Created by constructing the Megaron and the Cyclopean Wall in the same District. +1 [icon:YIELD_FOOD]Food, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_GOLD]Gold on Fortifications in this Settlement. +2 [icon:YIELD_FOOD]Food in [icon:YIELD_TOWNS]Towns.</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_ZESTER_WANAX_PALACE_TOOLTIP">
+			<Text>Mycenaean Unique Quarter. Created by constructing the Megaron and the Cyclopean Wall in the same District. +1 [icon:YIELD_FOOD]Food, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_GOLD]Gold on Fortifications in this Settlement. +2 [icon:YIELD_FOOD]Food in [icon:YIELD_TOWNS]Towns.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZESTER_MEGARON_NAME">
+			<Text>Megaron</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZESTER_MEGARON_DESCRIPTION">
+			<Text>Mycenaean Unique Happiness Building. +3 [icon:YIELD_HAPPINESS]Happiness. +1 [icon:YIELD_GOLD]Gold adjacency for Quarters and Wonders. Ageless.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZESTER_MEGARON_TOOLTIP">
+			<Text>Mycenaean Unique Happiness Building. +3 [icon:YIELD_HAPPINESS]Happiness. +1 [icon:YIELD_GOLD]Gold adjacency for Quarters and Wonders. Ageless.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_NAME">
+			<Text>Cyclopean Wall</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_DESCRIPTION">
+			<Text>Mycenaean Unique Production Building and Fortification. +3 [icon:YIELD_PRODUCTION]Production. +1 [icon:YIELD_PRODUCTION]Production adjacency for Wonders. Ageless.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_TOOLTIP">
+			<Text>Mycenaean Unique Production Building and Fortification. +3 [icon:YIELD_PRODUCTION]Production. +1 [icon:YIELD_PRODUCTION]Production adjacency for Wonders. Ageless.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_TOOLTIP">
+			<Text>Mycenaean Unique Production Building and Fortification. +3 [icon:YIELD_PRODUCTION]Production. +1 [icon:YIELD_PRODUCTION]Production adjacency for Wonders. Ageless.</Text>
+		</Row>
+	</EnglishText>
+</Database>

@@ -20,7 +20,7 @@
 			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE" />
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">50</Argument>
+		<Argument name="Amount">25</Argument>
 		<Argument name="PercentMultiplier">true</Argument>
 	</Modifier>
 	<!-- Wonder Bonus -->

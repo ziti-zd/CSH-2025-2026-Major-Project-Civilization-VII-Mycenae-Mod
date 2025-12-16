@@ -74,7 +74,7 @@
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true">
 			</Requirement>
 			<Argument name="YieldType">YIELD_FOOD</Argument>
-			<Argument name="Amount">1</Argument>
+			<Argument name="Amount">2</Argument>
 		</SubjectRequirements>
 	</Modifier>
 </GameEffects>

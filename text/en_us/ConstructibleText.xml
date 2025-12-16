@@ -14,22 +14,22 @@
 			<Text>Megaron</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_ZESTER_MEGARON_DESCRIPTION">
-			<Text>Mycenaean Unique Happiness Building. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_GOLD] Gold adjacency for Quarters and Wonders. Ageless.</Text>
+			<Text>Mycenaean Unique Happiness Building. +3 [icon:YIELD_HAPPINESS] Happiness. +1 [icon:YIELD_GOLD] Gold adjacency for Quarters and Wonders. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_ZESTER_MEGARON_TOOLTIP">
-			<Text>Mycenaean Unique Happiness Building. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_GOLD] Gold adjacency for Quarters and Wonders. Ageless.</Text>
+			<Text>Mycenaean Unique Happiness Building. +3 [icon:YIELD_HAPPINESS] Happiness. +1 [icon:YIELD_GOLD] Gold adjacency for Quarters and Wonders. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_NAME">
 			<Text>Cyclopean Wall</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_DESCRIPTION">
-			<Text>Mycenaean Unique Production Building and [icon:Action_Fortify] Fortification. +3[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production adjacency for Wonders. Ageless.</Text>
+			<Text>Mycenaean Unique Production Building and [icon:Action_Fortify] Fortification. +3 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production adjacency for Wonders. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_TOOLTIP">
-			<Text>Mycenaean Unique Production Building and [icon:Action_Fortify] Fortification. +3[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production adjacency for Wonders. Ageless.</Text>
+			<Text>Mycenaean Unique Production Building and [icon:Action_Fortify] Fortification. +3 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production adjacency for Wonders. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_TOOLTIP">
-			<Text>Mycenaean Unique Production Building and [icon:Action_Fortify] Fortification. +3[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production adjacency for Wonders. Ageless.</Text>
+			<Text>Mycenaean Unique Production Building and [icon:Action_Fortify] Fortification. +3 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production adjacency for Wonders. Ageless.</Text>
 		</Row>
 	</EnglishText>
 </Database>

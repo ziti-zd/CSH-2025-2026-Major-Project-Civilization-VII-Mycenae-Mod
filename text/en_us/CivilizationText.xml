@@ -17,7 +17,7 @@
 			<Text>Palace Economy</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_ZESTER_MYCENAE_ABILITY_DESCRIPTION">
-			<Text>[BLIST][LI][B]-75% [icon:YIELD_FOOD]Food and [icon:YIELD_GOLD]Gold[/B] in [B][icon:YIELD_TOWNS]Towns[/B] with a specialization.[LI][B]+25% [icon:YIELD_GOLD]Gold[/B] in [B][icon:YIELD_CITIES]Cities[/B].[LI][B]+30% [icon:YIELD_PRODUCTION]Production[/B] towards the [B]Lion Gate[/B].[/BLIST]</Text>
+			<Text>[BLIST][LI][B]-75%[icon:YIELD_FOOD] Food and [icon:YIELD_GOLD] Gold[/B] in [B][icon:YIELD_TOWNS]Towns[/B] with a specialization.[LI][B]+25%[icon:YIELD_GOLD] Gold[/B] in [B][icon:YIELD_CITIES]Cities[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production[/B] towards the [B]Lion Gate[/B].[/BLIST]</Text>
 		</Row>
 	</EnglishText>
 </Database>

@@ -102,7 +102,11 @@
 			 UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE" 
 			 TargetKind="KIND_MODIFIER" 
-			 TargetType="MOD_ZESTER_TRADE_ROUTE_RANGE_BUFF" 
+			 TargetType="MOD_ZESTER_LAND_TRADE_ROUTE_RANGE_BUFF" 
+			 UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE"
+			 TargetKind="KIND_MODIFIER"
+			 TargetType="MOD_ZESTER_NAVAL_TRADE_ROUTE_RANGE_BUFF"
 			 UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE" 
 			 TargetKind="KIND_MODIFIER" 

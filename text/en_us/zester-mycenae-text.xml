@@ -23,10 +23,10 @@
 			<Text>Palace Economy</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_ZESTER_MYCENAE_ABILITY_DESCRIPTION" Language="en_US">
-			<Text>[BLIST][LI][B]-75% [icon:YIELD_FOOD]Food and [icon:YIELD_GOLD]Gold[/B] on specialized [B][icon:YIELD_TOWNS]Towns[/B].[LI][B]+100% [icon:YIELD_GOLD]Gold[/B] in [B][icon:YIELD_CITIES]Cities[/B].[LI][B]+4 [icon:YIELD_FOOD]Food[/B] in [B][icon:YIELD_TOWNS]Towns[/B] for every [B][icon:YIELD_CITIES]City[/B].[LI][B]+30% [icon:YIELD_PRODUCTION]Production[/B] towards the [B]Lion Gate[/B].[/BLIST]</Text>
+			<Text>[BLIST][LI][B]-75% [icon:YIELD_FOOD]Food and [icon:YIELD_GOLD]Gold[/B] on specialized [B][icon:YIELD_TOWNS]Towns[/B].[LI][B]+50% [icon:YIELD_GOLD]Gold[/B] in [B][icon:YIELD_CITIES]Cities[/B].[LI][B]+30% [icon:YIELD_PRODUCTION]Production[/B] towards the [B]Lion Gate[/B].[/BLIST]</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_ZESTER_MYCENAE_DESCRIPTION" Language="en_US">
-			<Text>[BLIST][LI][B]-75% [icon:YIELD_FOOD]Food and [icon:YIELD_GOLD]Gold[/B] on specialized [B][icon:YIELD_TOWNS]Towns[/B].[LI][B]+100% [icon:YIELD_GOLD]Gold[/B] in [B][icon:YIELD_CITIES]Cities[/B].[LI][B]+4 [icon:YIELD_FOOD]Food[/B] in [B][icon:YIELD_TOWNS]Towns[/B] for every [B][icon:YIELD_CITIES]City[/B].[LI][B]+30% [icon:YIELD_PRODUCTION]Production[/B] towards the [B]Lion Gate[/B].[/BLIST]</Text>
+			<Text>[BLIST][LI][B]-75% [icon:YIELD_FOOD]Food and [icon:YIELD_GOLD]Gold[/B] on specialized [B][icon:YIELD_TOWNS]Towns[/B].[LI][B]+50% [icon:YIELD_GOLD]Gold[/B] in [B][icon:YIELD_CITIES]Cities[/B].[LI][B]+30% [icon:YIELD_PRODUCTION]Production[/B] towards the [B]Lion Gate[/B].[/BLIST]</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_ZESTER_MYCENAE_DESCRIPTION" Language="en_US">
 			<Text>+30%[icon:YIELD_PRODUCTION] Production from being Mycenae’s associated Wonder.</Text>
@@ -35,7 +35,7 @@
 			<Text>Olive Oil Merchant</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ZESTER_OLIVE_OIL_MERCHANT_DESCRIPTION" Language="en_US">
-			<Text>Grants +10 [icon:YIELD_GOLD]Gold for each [icon:RADIAL_RESOURCES]Resource acquired when creating a naval [icon:TRADE_ROUTE]Trade Route.</Text>
+			<Text>Grants +35 [icon:YIELD_GOLD]Gold for each [icon:RADIAL_RESOURCES]Resource acquired when creating a naval [icon:TRADE_ROUTE]Trade Route.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ZESTER_TUSK_HELMED_SPEARMAN_NAME" Language="en_US">
 			<Text>Tusk-Helmed Spearman</Text>

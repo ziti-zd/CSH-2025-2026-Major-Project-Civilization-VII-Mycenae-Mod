@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_CIVILIZATION_ZESTER_MYCENAE_NAME">
+			<Text>Mycenae</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ZESTER_MYCENAE_FULLNAME">
+			<Text>Mycenae Antiquty Age Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ZESTER_MYCENAE_DESCRIPTION">
+			<Text>Mycenae Antiquty Age Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ZESTER_MYCENAE_ADJECTIVE">
+			<Text>Mycenaean</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ZESTER_MYCENAE_ABILITY_NAME">
+			<Text>Palace Economy</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ZESTER_MYCENAE_ABILITY_DESCRIPTION">
+			<Text>[BLIST][LI][B]-75% [icon:YIELD_FOOD]Food and [icon:YIELD_GOLD]Gold[/B] on specialized [B][icon:YIELD_TOWNS]Towns[/B].[LI][B]+50% [icon:YIELD_GOLD]Gold[/B] in [B][icon:YIELD_CITIES]Cities[/B].[LI][B]+30% [icon:YIELD_PRODUCTION]Production[/B] towards the [B]Lion Gate[/B].[/BLIST]</Text>
+		</Row>
+	</EnglishText>
+</Database>

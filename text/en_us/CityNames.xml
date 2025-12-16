@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE1">
+			<Text>Mycenae</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE2">
+			<Text>Pylos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE3">
+			<Text>Tiryns</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE4">
+			<Text>Midea</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE5">
+			<Text>Orchomenos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE6">
+			<Text>Thebes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE7">
+			<Text>Athens</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE8">
+			<Text>Iolcos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE9">
+			<Text>Gla</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE10">
+			<Text>Argos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZESTER_MYCENAE11">
+			<Text>Crisa</Text>
+		</Row>
+	</EnglishText>
+</Database>

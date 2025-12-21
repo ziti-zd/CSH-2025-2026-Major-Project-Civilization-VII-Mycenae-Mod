@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_TRADITION"/>
+	</Kinds>
+	<Types>
+		<Row Type="TRADITION_ZESTER_GRAVE_GOODS" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_ZESTER_CYCLOPEAN_MASONRY" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_ZESTER_LINEAR B" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_ZESTER_HOMERIC_LEGEND" Kind="KIND_TRADITION"/>
+	</Types>
+</Database>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+	<!-- Tusk-Helmed Spearman Pillage Health -->
 	<Modifier id="ZESTER_TUSK_HELMED_SPEARMAN_MOD_PILLAGE_HEAL_BUILDING"
 			  collection="COLLECTION_OWNER"
 			  effect="EFFECT_ADJUST_UNIT_BUILDING_PILLAGE_YIELD_MODIFIER">
@@ -12,6 +13,8 @@
 		<Argument name="Amount">10</Argument>
 		<Argument name="PluderTypes">PLUNDER_HEAL</Argument>
 	</Modifier>
+	
+	<!-- Tusk-Helmed Spearman Amphibious Tag-->
 	<Modifier id="ZESTER_TUSK_HELMED_SPEARMAN_MOD_AMPHIBIOUS"
 			  collection="COLLECTION_PLAYER_UNITS"
 			  effect="EFFECT_UNIT_ADJUST_ABILITY">
@@ -22,15 +25,17 @@
 		</SubjectRequirements>
 		<Argument name="AbilityType">ABILITY_AMPHIBIOUS</Argument>
 	</Modifier>
-	
-	<Modifier id="ZESTER_OLIVE_OIL_MERCHANT_MOD_TRADE_CREATION_YIELD"
-			  collection="COLLECTION_OWNER"
+
+	<!-- Palace Ledger Food on Road Creation-->
+	<Modifier id="ZESTER_PALACE_LEDGER_MOD_FOOD_ON_ROAD_CREATION"
+			  collection="COLLECTION_PLAYER_CAPITAL_CITY"
 			  effect="EFFECT_UNIT_ADJUST_COMMAND_AWARD">
-		<Argument name="DomainType">DOMAIN_SEA</Argument>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount" type="ScaleByGameSpeed">35</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount" 
+				  type="ScaleByGameSpeed">50
+		</Argument>
 		<Argument name="PerResource">true</Argument>
-		<Argument name="CommandType">UNITCOMMAND_MAKE_TRADE_ROUTE</Argument>
+		<Argument name="CommandType">UNITCOMMAND_CONNECT_WITH_ROAD</Argument>
 	</Modifier>
 </GameEffects>
 

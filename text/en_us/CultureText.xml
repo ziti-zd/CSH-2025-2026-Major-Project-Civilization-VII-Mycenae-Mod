@@ -8,7 +8,7 @@
 		<Text>Tomb-Building</Text>
 	</Row>
 	<Row Tag="LOC_CIVIC_ZESTER_TOMB_BUILDING_QUOTE">
-		<!-- Do the "ostentatious waste" sentence from "The Greeks"-->
+		<Text>A ceremonial precinct was built to set apart and preserve the place where the illustrious dead and their treasures had been laid to rest.</Text>
 	</Row>
 	<Row Tag="LOC_CIVIC_ZESTER_TOMB_BUILDING_AUTHOR">
 		<!-- Attribute author of "The Greeks"-->
@@ -20,7 +20,7 @@
 		<!-- Unsure what to do for the text.-->
 	</Row>
 	<Row Tag="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_AUTHOR">
-		<!-- Unsure what to do for the text.-->
+		<Text>These are no ordinary fortifications. So massive are the stones of which they are built that later generations could hardly believe they had been raised into position by human beings at all.</Text>
 	</Row>
 	<Row Tag="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_NAME">
 		<Text>Mediterranean Trade</Text>
@@ -68,10 +68,13 @@
 		<Text>Cyclopean Masonry</Text>
 	</Row>
 	<Row Tag="LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION" Language="en_US">
-		<Text>+1 [icon:YIELD_FOOD] Food and +1 [icon:YIELD_PRODUCTION] Production on [icon:Action_Fortify] Fortifications.</Text>
+		<Text>+1 [icon:YIELD_FOOD] Food, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_GOLD] Gold on [icon:Action_Fortify] Fortifications.</Text>
 	</Row>
 	<Row Tag="LOC_TRADITION_ZESTER_HOMERIC_LEGEND_NAME" Language="en_US">
 		<Text>Homeric Legend</Text>
+	</Row>
+	<Row Tag="LOC_TRADITION_ZESTER_LINEAR_B_DESCRIPTION" Language="en_US">
+		<Text>[icon:YIELD_CITIES] Cities receive +1 [icon:YIELD_CULTURE] Culture for each connected Settlement.</Text>
 	</Row>
 	<Row Tag="LOC_TRADITION_ZESTER_HOMERIC_LEGEND_DESCRIPTION" Language="en_US">
 		<Text>When one of your Land Military Units defeats an enemy Unit, gain [icon:YIELD_GOLD] Gold equal to 100% of its [icon:NAR_REW_COMBAT] Combat Strength.</Text>

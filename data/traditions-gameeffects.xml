@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Grave Goods -->
+	<Modifier id="ZESTER_GRAVE_GOODS_MOD_HAPPINESS_BUILDING_GOLD"
+			  collection="COLLECTION_OWNER"
+			  effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">4</Argument>
+		<Argument name="Tag">HAPPINESS</Argument>
+		<String context="Description">LOC_TRADITION_ZESTER_GRAVE_GOODS_DESCRIPTION</String>
+	</Modifier>
+	
+	<!-- Cyclopean Masonry -->
+	<Modifier id="ZESTER_CYCLOPEAN_MASONRY_MOD_FORTIFICATION_YIELDS"
+			  collection="COLLECTION_PLAYER_CITIES"
+			  effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="Tag">FORTIFICATION</Argument>
+		<Argument name="Yield">YIELD_FOOD,YIELD_PRODUCTION,YIELD_GOLD</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION</String>
+	</Modifier>
+	
+	<!-- Linear B -->
+	<Modifier id="ZESTER_LINEAR_B_MOD_CULTURE_PER_CONNECTED_SETTLEMENT"
+			  collection="COLLECTION_ALL_CITIES"
+			  effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_TRADITION_ZESTER_LINEAR_B_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- Homeric Legend -->
+	<Modifier id="ZESTER_HOMERIC_LEGEND_MOD_GOLD_ON_KILL"
+			  collection="COLLECTION_UNIT_COMBAT"
+			  effect="EFFECT_ADJUST_UNIT_POST_COMBAT_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="PercentDefeatedStrength">100</Argument>
+		<String context="Description">LOC_TRADITION_ZESTER_HOMERIC_LEGEND_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

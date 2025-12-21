@@ -36,8 +36,6 @@
 		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
-		<!-- Uncomment when you actually have these icons to import 
-		
 		<ActionGroup id="base-game-main-Zester-Mycenae" 
 					 scope="game" 
 					 criteria="always">
@@ -48,9 +46,11 @@
 				<UpdateText>
 					<Item>text/en_us/UnlockText.xml</Item>
 				</UpdateText>
+				<!--
 				<ImportFiles>
 					<Item>icons/civ_zester_mycenae.png</Item>
 				</ImportFiles>
+				-->
 			</Actions>
 		</ActionGroup>
 		-->
@@ -147,8 +147,8 @@
 				<UpdateText>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>					
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item></Item>

@@ -14,6 +14,9 @@
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">2</Argument>
 	</Modifier>
+	
+	<!-- The Wanax Palace needs its Food per connected Settlement.
+		 The Lion Gate needs its extra Fortification yields. -->
 	<Modifier id="MOD_ZESTER_LION_GATE_FORTIFICATION_PRODUCTION"
 			  collection="COLLECTION_OWNER"
 			  effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD"
@@ -25,7 +28,7 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Tag">FORTIFICATION</Argument>
-		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="YieldType">YIELD_FOOD,YIELD_PRODUCTION,YIELD_GOLD</Argument>
 		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_WONDER_ZESTER_LION_GATE_NAME</Argument>
 		<Argument name="Description">LOC_WONDER_ZESTER_LION_GATE_DESCRIPTION</Argument>

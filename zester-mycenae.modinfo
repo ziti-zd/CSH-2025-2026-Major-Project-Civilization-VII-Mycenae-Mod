@@ -147,9 +147,9 @@
 				<UpdateText>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
-					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>					
+					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item></Item>
 				</UpdateText>

@@ -17,10 +17,10 @@
 			<Text>Tier 3 Mycenaean Unique Infantry Unit. Heals +10 [icon:Action_Heal] HP from [icon:Action_Pillage] Pillaging any tile. Has the Amphibious ability.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ZESTER_OLIVE_OIL_MERCHANT_NAME">
-			<Text>Olive Oil Merchant</Text>
+			<Text>Palace Ledger</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ZESTER_OLIVE_OIL_MERCHANT_DESCRIPTION">
-			<Text>Mycenaean Unique Merchant. Civilian who can establish a [icon:TRADE_ROUTE] Trade Route to import [icon:RADIAL_RESOURCES] Resources from a foreign Settlement. Gain 35 [icon:YIELD_GOLD] Gold for each [icon:RADIAL_RESOURCES] Resource acquired when creating a [icon:TRADE_ROUTE] Naval Trade Route.</Text>
+			<Text>Mycenaean Unique Merchant. Civilian who can establish a [icon:TRADE_ROUTE] Trade Route to import [icon:RADIAL_RESOURCES] Resources from a foreign Settlement. Gain 50 [icon:YIELD_FOOD] Food in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital when using the Create Road Action.</Text>
 		</Row>
 	</EnglishText>
 </Database>

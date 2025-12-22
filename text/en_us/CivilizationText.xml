@@ -12,6 +12,7 @@
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_ZESTER_MYCENAE_ADJECTIVE">
 			<Text>Mycenaean</Text>
+			<Gender>Masculine:an</Gender>
 		</Row>
 		<Row Tag="LOC_TRAIT_ZESTER_MYCENAE_ABILITY_NAME">
 			<Text>Palace Economy</Text>

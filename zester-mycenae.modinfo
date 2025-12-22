@@ -63,7 +63,6 @@
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/requirement-sets.xml</Item>
 					<Item>data/constructibles.xml</Item>
-					<Item>data/religion.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/traditions.xml</Item>
 					<Item>data/wonders.xml</Item>

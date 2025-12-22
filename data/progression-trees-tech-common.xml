@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<ProgressionTreeNodeUnlocks>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_MASONRY"
+			 TargetKind="KIND_CONSTRUCTIBLE"
+			 TargetType="WONDER_ZESTER_LION_GATE"
+			 UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_BRONZE_WORKING"
+			 TargetKind="KIND_UNIT"
+			 TargetType="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_2"
+			 UnlockDepth="1"
+			 RequiredTraitType="TRAIT_ZESTER_MYCENAE"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING"
+			 TargetKind="KIND_UNIT"
+			 TargetType="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_3"
+			 UnolockDepth="1"
+			 RequiredTraitType="TRAIT_ZESTER_MYCENAE"/>
+	</ProgressionTreeNodeUnlocks>
+</Database>

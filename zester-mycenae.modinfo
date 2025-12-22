@@ -4,6 +4,7 @@
 		<Name>Mycenae</Name>
 		<Description>Contains a new Antiquity Age Civilization, Mycenae.</Description>
 		<Authors>zester000</Authors>
+		<Package>DLC</Package>
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>

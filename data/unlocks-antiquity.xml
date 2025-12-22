@@ -17,6 +17,6 @@
 	</UnlockRewards>
 	<UnlockConfigurationVlaues>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ZESTER_MYCENAE"
-						ConfigurationValue="CIVILIZATIO_ZESTER_MYCENAE"/>
+						ConfigurationValue="CIVILIZATION_ZESTER_MYCENAE"/>
 	</UnlockConfigurationVlaues>
 </Database>

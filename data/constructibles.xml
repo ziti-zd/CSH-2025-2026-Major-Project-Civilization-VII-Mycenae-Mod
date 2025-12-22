@@ -37,7 +37,7 @@
         <Row Type="WONDER_ZESTER_LION_GATE" 
 			 Quote="LOC_QUOTE_WONDER_ZESTER_LION_GATE" 
 			 QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_ZESTER_LION_GATE" 
-			 QuoteAudio="VO_Quote_AngkorWat"/>
+			 QuoteAudio="VO_Quote_Oracle"/>
 	</TypeQuotes>
 	<Constructibles>
 		<!-- Civ Unique Buildings -->

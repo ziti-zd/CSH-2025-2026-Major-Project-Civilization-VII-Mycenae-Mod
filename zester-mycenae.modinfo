@@ -98,26 +98,8 @@
 					<Item>text/en_us/LoadingText.xml</Item>
 				</UpdateText>
 				<UpdateVisualRemaps>
-					<Item>data/visual-remap.xml</Item>
+					<Item></Item>
 				</UpdateVisualRemaps>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="exploration-age-persist-Zester-Mycenae"
-					 scope="game"
-					 criteria="exploration-age-persist">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/constructibles-exploration.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="modern-age-persist-Zester-Mycenae"
-					 scope="game"
-					 criteria="modern-age-persist">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/constructibles-modern.xml</Item>
-				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup  id="shell-Zester-Mycenae" 
@@ -138,12 +120,11 @@
 					<Item>icons/cult_zester_mycenae.png</Item>
 					<Item>icons/wondericon_lion_gate_zester_mycenae.png</Item>
 				</ImportFiles>
-				
-				-->
 				<UpdateIcons>
 					<Item>data/icons/Mycenae.xml</Item>
 					<Item>data/icons/wonder-icons.xml</Item>
 				</UpdateIcons>
+				-->
 				<UpdateText>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>

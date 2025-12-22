@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_ZESTER_MYCENAE"
+						Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ZESTER_MYCENAE"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ZESTER_MYCENAE"
+						Name="LOC_CIVILIZATION_ZESTER_MYCENAE_NAME"
+						Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION"
+						Icon="CIVILIZATION_ZESTER_MYCENAE"
+						UnlockRewardType="CIVILIZATION_ZESTER_MYCENAE"
+						UnlockRewardKind="KIND_CIVILIZATION"/>
+	</UnlockRewards>
+	<UnlockConfigurationVlaues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ZESTER_MYCENAE"
+						ConfigurationValue="CIVILIZATIO_ZESTER_MYCENAE"/>
+	</UnlockConfigurationVlaues>
+</Database>

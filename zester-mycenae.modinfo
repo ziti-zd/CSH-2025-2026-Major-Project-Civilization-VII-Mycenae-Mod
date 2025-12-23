@@ -50,7 +50,7 @@
 					<Item>text/en_us/UnlockText.xml</Item>
 				</UpdateText>
 				<ImportFiles>
-					<Item>icons/civ_zester_mycenae.png</Item>
+					<Item>icons/civ_mycenae.png</Item>
 				</ImportFiles>
 			</Actions>
 		</ActionGroup>

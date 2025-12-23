@@ -42,6 +42,7 @@
 					 criteria="always">
 			<Actions>
 				<UpdateDatabase>
+					<Item>data/unlocks-antiquity.xml</Item>
 					<Item>data/unlocks-base-standard.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>

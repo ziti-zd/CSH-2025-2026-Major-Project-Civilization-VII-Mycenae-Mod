@@ -5,9 +5,6 @@
 			 CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_ZESTER_MYCENAE"
 			 Audio="VO_Loading_Greece"
 			 Subtitle="LOC_LOADING_INTRO_GREECE"
-			 BackgroundImageHigh=""
-			 BackgroundImageLow=""
-			 ForegroundImage=""
 			 Tip="LOC_LOADING_CIV_TIPS_TEXT_ZESTER_MYCENAE">			
 		</Row>
 	</LoadingInfo_Civilizations>

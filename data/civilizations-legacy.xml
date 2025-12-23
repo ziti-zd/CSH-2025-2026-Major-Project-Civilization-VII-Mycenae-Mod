@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Databse>
+<Database>
 	<Types>
 		<Row Type="TRAIT_ZESTER_MYCENAE" Kind="KIND_TRAIT"/>
 		<Row Type="CIVILIZATION_ZESTER_MYCENAE" Kind="KIND_CIVILIZATION"/>
@@ -21,4 +21,4 @@
 		<!-- This is where I would list any Leaders who woud default to Mycenae as an AI opponent.
 		There are none in the game who fit that bill, however. -->
 	</LegacyLeaderCivPriorities>
-</Databse>
+</Database>

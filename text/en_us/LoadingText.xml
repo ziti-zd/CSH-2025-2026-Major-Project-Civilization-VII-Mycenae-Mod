@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_ZESTER_MYCENAE">
-		<Text>Along the coast, merchant ships flitter to and fro, carrying pottery and olive oil. On the shore, spearmen stand guard atop walls sized for giants. And from within the city's stone armor, palace tombs overflow with gold. These are the Mycenaeans, the progenitors of the Greeks and the Mediterranean champions of the Bronze Age. Don the boar tusk helm and wield your spear, Wanax of Ahhiyawa. Your greatness today will weave the legends of tomorrow.</Text>
-	</Row>
-	<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_ZESTER_MYCENAE">
-		<Text>Mycenae favors well-fortified Cities over Towns. Make as many Cities as possible and build a Wanax Palace in each one to shower your Towns with Food.</Text>
-	</Row>
+	<EnglishText>
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_ZESTER_MYCENAE">
+			<Text>Along the coast, merchant ships flitter to and fro, carrying pottery and olive oil. On the shore, spearmen stand guard atop walls sized for giants. And from within the city's stone armor, palace tombs overflow with gold. These are the Mycenaeans, the progenitors of the Greeks and the Mediterranean champions of the Bronze Age. Don the boar tusk helm and wield your spear, Wanax of Ahhiyawa. Your greatness today will weave the legends of tomorrow.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_ZESTER_MYCENAE">
+			<Text>Mycenae favors well-fortified Cities over Towns. Make as many Cities as possible and build a Wanax Palace in each one to shower your Towns with Food.</Text>
+		</Row>
+	</EnglishText>
 </Database>

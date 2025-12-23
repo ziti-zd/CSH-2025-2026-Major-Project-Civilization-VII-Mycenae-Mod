@@ -15,7 +15,7 @@
 			 System="GovernmentBiases"/>
 		<Row ListType="Mycenae Constructibles Biases" 
 			 LeaderType="TRAIT_ZESTER_MYCENAE" 
-			 System="ConstructibleBiases"/>"
+			 System="ConstructibleBiases"/>
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="Mycenae Unit Biases" 
@@ -28,7 +28,7 @@
 			 Item="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_3" 
 			 Value="25"/>
 		<Row ListType="Mycenae Unit Biases" 
-			 Item="UNIT_ZESTER_OLIVE_OIL_MERCHANT" 
+			 Item="UNIT_ZESTER_PALACE_LEDGER" 
 			 Value="50"/>
 		<Row ListType="Mycenae Government Bias" 
 			 Item="GOVERNMENT_AUTOCRACY" 

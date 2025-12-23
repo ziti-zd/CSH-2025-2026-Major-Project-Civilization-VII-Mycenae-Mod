@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<!-- WIP. This is where you would put civic quotes, which you don't have yet. -->
 		<Row Tag="LOC_TREE_CIVICS_ZESTER_MYCENAE_NAME">
 			<Text>Mycenaean Civics</Text>
 		</Row>
@@ -28,18 +27,18 @@
 		</Row>
 		<Row Tag="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_QUOTE">
 			<!-- There is probably something about Mycenaean pottery ending up all around the Mediterranean in "The Greeks."-->
-			<Text></Text>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_AUTHOR">
 			<!-- Attribute author of "The Greeks"-->
-			<Text></Text>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_ZESTER_WARRIOR_ELITE_NAME">
 			<Text>Warrior Elite</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_ZESTER_WARRIOR_ELITE_QUOTE">
 			<!-- Something from the Odyssey or the Iliad.-->
-			<Text></Text>
+			<Text>Placeholder</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_ZESTER_WARRIOR_ELITE_AUTHOR">
 			<Text>Homer</Text>
@@ -71,16 +70,16 @@
 		<Row Tag="LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_NAME">
 			<Text>Cyclopean Masonry</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION">
 			<Text>+1 [icon:YIELD_FOOD] Food, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_GOLD] Gold on [icon:Action_Fortify] Fortifications.</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_ZESTER_HOMERIC_LEGEND_NAME" Language="en_US">
+		<Row Tag="LOC_TRADITION_ZESTER_HOMERIC_LEGEND_NAME">
 			<Text>Homeric Legend</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_ZESTER_LINEAR_B_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRADITION_ZESTER_LINEAR_B_DESCRIPTION">
 			<Text>[icon:YIELD_CITIES] Cities receive +1 [icon:YIELD_CULTURE] Culture for each connected Settlement.</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_ZESTER_HOMERIC_LEGEND_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRADITION_ZESTER_HOMERIC_LEGEND_DESCRIPTION">
 			<Text>When one of your Land Military Units defeats an enemy Unit, gain [icon:YIELD_GOLD] Gold equal to 100% of its [icon:NAR_REW_COMBAT] Combat Strength.</Text>
 		</Row>
 	</EnglishText>

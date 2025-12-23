@@ -78,7 +78,6 @@
 			 MaxWorldInstances="1"/>
 	</Wonders>
 	<Constructible_RequiredFeatureClasses>
-		<!-- Check Base/modules/base-standard/data/terrain.xml -->
 	</Constructible_RequiredFeatureClasses>
 	<Constructible_ValidBiomes>
 	</Constructible_ValidBiomes>

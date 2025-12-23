@@ -15,9 +15,8 @@
 		<Argument name="Amount">2</Argument>
 	</Modifier>
 	
-	<!-- The Wanax Palace needs its Food per connected Settlement.
-		 The Lion Gate needs its extra Fortification yields. -->
-	<Modifier id="MOD_ZESTER_LION_GATE_FORTIFICATION_PRODUCTION"
+	<!-- The Wanax Palace needs its Food per connected Settlement. -->
+	<Modifier id="MOD_ZESTER_LION_GATE_FORTIFICATION_YIELDS"
 			  collection="COLLECTION_OWNER"
 			  effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD"
 			  permanent="true"

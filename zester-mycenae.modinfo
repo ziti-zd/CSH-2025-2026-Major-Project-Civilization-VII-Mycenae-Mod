@@ -49,14 +49,11 @@
 				<UpdateText>
 					<Item>text/en_us/UnlockText.xml</Item>
 				</UpdateText>
-				<!--
 				<ImportFiles>
 					<Item>icons/civ_zester_mycenae.png</Item>
 				</ImportFiles>
-				-->
 			</Actions>
 		</ActionGroup>
-		-->
 		<ActionGroup id="age-antiquity-persist-Zester-Mycenae"
 					 scope="game"
 					 criteria="antiquity-age-persist">

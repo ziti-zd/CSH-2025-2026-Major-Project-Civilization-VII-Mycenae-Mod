@@ -147,7 +147,7 @@
 			 YieldType="YIELD_GOLD"
 			 YieldChange="1"
 			 TilesRequired="1"
-			 AdjacenDistrict="DISTRICT_WONDER"/>
+			 AdjacentDistrict="DISTRICT_WONDER"/>
 		<Row ID="ZesterWonderProduction"
 			 YieldType="YIELD_PRODUCTION"
 			 YieldChange="1"

@@ -6,7 +6,7 @@
 			 CivilizationName="LOC_CIVILIZATION_ZESTER_MYCENAE_NAME" 
 			 CivilizationFullName="LOC_CIVILIZATION_ZESTER_MYCENAE_FULLNAME" 
 			 CivilizationDescription="LOC_CIVILIZATION_ZESTER_MYCENAE_DESCRIPTION" 
-			 CivilizationIcon="civ_sym_greece.png"/>
+			 CivilizationIcon="civ_mycenae.png"/>
 	</Civilizations>
 	<CivilizationItems>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" 

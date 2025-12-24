@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+	<LoadingInfo_Ages></LoadingInfo_Ages>
 	<LoadingInfo_Civilizations>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" 
 			 CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_ZESTER_MYCENAE"

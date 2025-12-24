@@ -3,5 +3,18 @@
 	<Row>
 		<ID>CIVILIZATION_ZESTER_MYCENAE</ID>
 		<Path>fs://game/zester-mycenae/icons/civ-mycenae</Path>
+		<Context>DEFAULT</Context>
+	</Row>
+	<Row>
+		<ID>CIVILIZATION_ZESTER_MYCENAE</ID>
+		<Path>fs://game/zester-mycenae/icons/lsbg_mycenae_1080</Path>
+		<Context>BACKGROUND</Context>
+		<IconSize>1080</IconSize>
+	</Row>
+	<Row>
+		<ID>CIVILIZATION_ZESTER_MYCENAE</ID>
+		<Path>fs://game/zester-mycenae/icons/lsbg_mycnae_720</Path>
+		<Context>BACKGROUND</Context>
+		<IconSize>720</IconSize>
 	</Row>
 </Database>

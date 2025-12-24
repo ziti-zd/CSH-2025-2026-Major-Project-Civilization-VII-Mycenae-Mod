@@ -4,10 +4,10 @@
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" 
 			 CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_ZESTER_MYCENAE"
 			 Audio="VO_Loading_MYCENAE"
-			 Subtitle="LOC_LOADING_CIV_INTRO_TEXT_ZESTER_MYCENAE"
-			 BackgroundImageHigh="fs://game/zester-mycenae/icons/lsbg_mycenae_1080"
-			 BackgroundImageLow="fs://game/zester-mycenae/icons/lsbg_mycenae_720"
-			 ForegroundImage="fs://zester-mycenae/icons/civ_mycenae"
+			 Subtitle="LOC_LOADING_INTRO_ZESTER_MYCENAE"
+			 BackgroundImageHigh="fs://game/zester-mycenae/icons/lsbg_mycenae_1080.png"
+			 BackgroundImageLow="fs://game/zester-mycenae/icons/lsbg_mycenae_720.png"
+			 ForegroundImage="fs://zester-mycenae/icons/civ_mycenae.png"
 			 Tip="LOC_LOADING_CIV_TIPS_TEXT_ZESTER_MYCENAE">			
 		</Row>
 	</LoadingInfo_Civilizations>

@@ -9,7 +9,6 @@
 			 BackgroundImageHigh="fs://game/zester-mycenae/icons/lsbg_mycenae_1080"
 			 BackgroundImageLow="fs://game/zester-mycenae/icons/lsbg_mycenae_720"
 			 ForegroundImage="fs://zester-mycenae/icons/civ_mycenae.png"
-			 Tip="LOC_LOADING_CIV_TIPS_TEXT_ZESTER_MYCENAE">			
-		</Row>
+			 Tip="LOC_LOADING_CIV_TIPS_TEXT_ZESTER_MYCENAE"/>
 	</LoadingInfo_Civilizations>
 </Database>

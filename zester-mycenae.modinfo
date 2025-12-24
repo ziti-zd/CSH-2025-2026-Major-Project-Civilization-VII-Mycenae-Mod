@@ -109,8 +109,7 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-				</UpdateDatabase>
-				<!-- Uncomment when you have these files 
+				</UpdateDatabase> 
 				
 				<ImportFiles>
 					<Item>icons/civ_zester_mycenae.png</Item>
@@ -123,9 +122,7 @@
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>data/icons/Mycenae.xml</Item>
-					<Item>data/icons/wonder-icons.xml</Item>
 				</UpdateIcons>
-				-->
 				<UpdateText>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>

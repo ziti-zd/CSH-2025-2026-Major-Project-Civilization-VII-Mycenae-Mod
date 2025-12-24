@@ -88,6 +88,10 @@
 			 TargetKind="KIND_TRADITION" 
 			 TargetType="TRADITION_ZESTER_CYCLOPEAN_MASONRY" 
 			 UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE"
+			 TargetKind="KIND_TRADITION"
+			 TargetType="TRADITION_ZESTER_LINEAR_B"
+			 UnlockDepth="2"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" 
 			 TargetKind="KIND_TRADITION" 
 			 TargetType="TRADITION_ZESTER_HOMERIC_LEGEND" 

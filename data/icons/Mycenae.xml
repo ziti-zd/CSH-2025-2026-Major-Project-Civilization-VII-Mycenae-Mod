@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Row>
+		<ID>CIVILIZATION_ZESTER_MYCENAE</ID>
+		<Path>fs://game/zester-mycenae/icons/civ-mycenae</Path>
+	</Row>
+</Database>

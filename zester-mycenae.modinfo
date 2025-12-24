@@ -52,6 +52,9 @@
 				<ImportFiles>
 					<Item>icons/civ_mycenae.png</Item>
 				</ImportFiles>
+				<UpdateIcons>
+					<Item>data/icons/Mycenae.xml</Item>
+				</UpdateIcons>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-antiquity-persist-Zester-Mycenae"

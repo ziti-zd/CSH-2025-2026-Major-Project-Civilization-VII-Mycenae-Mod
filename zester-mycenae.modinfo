@@ -42,9 +42,8 @@
 					 criteria="always">
 			<Actions>
 				<UpdateDatabase>
-					<!--
 					<Item>data/unlocks-antiquity.xml</Item>
-					<Item>data/unlocks-base-standard.xml</Item> -->
+					<Item>data/unlocks-base-standard.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/UnlockText.xml</Item>

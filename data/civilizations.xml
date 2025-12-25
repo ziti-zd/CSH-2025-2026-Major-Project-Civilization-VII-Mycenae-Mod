@@ -20,9 +20,6 @@
 			 FavoredWonderType="WONDER_LIONS_GATE"
 			 FavoredWonderName="LOC_WONDER_LIONS_GATE_NAME"/>
 	</CivilizationFavoredWonders>
-	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_ZESTER_MYCENAE" Subtitle="LOC_LOADING_INTRO_ZESTER_MYCENAE" Tip="LOC_LOADING_CIV_TIPS_TEXT_ZESTER_MYCENAE" BackgroundImageHigh="fs://game/lsbg_siam_1080.png" BackgroundImageLow="fs://game/lsbg_siam_720.png" ForegroundImage="fs://game/civ_line_siam.png"/>
-	</LoadingInfo_Civilizations>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE"
 			 TraitType="TRAIT_ANTIQUITY_CIV"/>

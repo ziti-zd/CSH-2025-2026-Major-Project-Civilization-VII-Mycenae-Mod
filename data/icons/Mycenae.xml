@@ -18,5 +18,8 @@
 			<Context>BACKGROUND</Context>
 			<IconSize>720</IconSize>
 		</Row>
+		<Row>
+			<ID>cult_zester_mycenae</ID>
+		</Row>
 	</IconDefinitions>
 </Database>

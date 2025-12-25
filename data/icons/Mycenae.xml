@@ -20,6 +20,7 @@
 		</Row>
 		<Row>
 			<ID>cult_zester_mycenae</ID>
+			<Path>fs://game/zester-mycenae/icons/cult_zester_mycenae</Path>
 		</Row>
 	</IconDefinitions>
 </Database>

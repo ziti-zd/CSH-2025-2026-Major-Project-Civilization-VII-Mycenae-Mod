@@ -62,11 +62,6 @@
 			 PrereqNode="CIVIC_ZESTER_CYCLOPEAN_MASONRY"/>
 	</ProgressionTreePrereqs>
 	<ProgressionTreeNodeUnlocks>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_CHIEFDOM" 
-			 TargetKind="KIND_MODIFIER" 
-			 TargetType="MOD_REVEAL_CIV_CULTURE_TREE_ZESTER_MYCENAE" 
-			 UnlockDepth="1" 
-			 Hidden="true"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" 
 			 TargetKind="KIND_CONSTRUCTIBLE" 
 			 TargetType="BUILDING_ZESTER_CYCLOPEAN_WALL" 

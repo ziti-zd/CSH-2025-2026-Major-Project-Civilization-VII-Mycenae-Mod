@@ -44,6 +44,23 @@
 		<Row TraitType="TRAIT_ZESTER_MYCENAE_ABILITY"
 			 ModifierId="TRAIT_MOD_ZESTER_MYCENAE_WONDER_PRODUCTION"/>
 	</TraitModifiers>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ZESTER_MYCENAE"
+			 RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ZESTER_MYCENAE"
+			 RequirementId="REQ_PLAYER_HAS_TRAIT_ZESTER_MYCENAE"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ZESTER_MYCENAE"
+			 RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ZESTER_MYCENAE"
+			 Name="TraitType"
+			 Value="TRAIT_ZESTER_MYCENAE"/>
+	</RequirementArguments>
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" 
 			 CityName="LOC_CITY_NAME_ZESTER_MYCENAE1"/>
@@ -74,7 +91,7 @@
 	</StartBiasTerrains>
 	<StartBiasAdjacentToCoasts>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE"
-			 Score="50"/>
+			 Score="25"/>
 	</StartBiasAdjacentToCoasts>
 	<StartBiasResources>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE"

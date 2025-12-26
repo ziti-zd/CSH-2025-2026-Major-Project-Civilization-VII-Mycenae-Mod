@@ -85,6 +85,7 @@
 		<Row CivUniqueUnitType="UNIT_ZESTER_TUSK_HELMED_SPEARMAN" ReplacesUnitType="UNIT_WARRIOR"/>
 		<Row CivUniqueUnitType="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_2" ReplacesUnitType="UNIT_SPEARMAN"/>
 		<Row CivUniqueUnitType="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_3" ReplacesUnitType="UNIT_PHALANX"/>
+		<Row CivUniqueUnitType="UNIT_ZESTER_PALACE_LEDGER" ReplacesUnitType="UNIT_MERCHANT"/>
 	</UnitReplaces>
 	<Tags>
 		<Row Tag="UNIT_CLASS_ZESTER_TUSK_HELMED_SPEARMAN" Category="UNIT_CLASS"/>

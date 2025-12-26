@@ -3,32 +3,4 @@
 	<Kinds>
 		<InsertOrIgnore Kind="KIND_UNLOCK"/>
 	</Kinds>
-	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_ZESTER_MYCENAE"
-						Kind="KIND_UNLOCK"/>
-	</Types>
-	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ZESTER_MYCENAE"/>
-	</Unlocks>
-	<RequirementSets>
-		<Row RequirementSetId="REQSET_CIV_IS_ZESTER_MYCENAE"
-			 RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-	</RequirementSets>
-	<Requirements>
-		<Row RequirementId="REQ_CIV_IS_ZESTER_MYCENAE"
-			 RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
-	</Requirements>
-	<RequirementArguments>
-		<Row RequirementId="REQ_CIV_IS_ZESTER_MYCENAE"
-			 Name="CivilizationType"
-			 Value="CIVILIZATION_ZESTER_MYCENAE"/>
-	</RequirementArguments>
-	<RequirementSetRequirements>
-		<Row RequirementSetId="REQSET_CIV_IS_ZESTER_MYCENAE"
-			 RequirementId="REQ_CIV_IS_ZESTER_MYCENAE"/>
-	</RequirementSetRequirements>
-	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ZESTER_MYCENAE"
-						ConfigurationValue="CIVILIZATION_ZESTER_MYCENAE"/>
-	</UnlockConfigurationValues>
 </Database>

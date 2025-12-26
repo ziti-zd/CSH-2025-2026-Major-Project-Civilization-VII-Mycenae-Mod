@@ -13,7 +13,7 @@
 		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING"
 			 TargetKind="KIND_UNIT"
 			 TargetType="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_3"
-			 UnolockDepth="1"
+			 UnlockDepth="1"
 			 RequiredTraitType="TRAIT_ZESTER_MYCENAE"/>
 	</ProgressionTreeNodeUnlocks>
 </Database>

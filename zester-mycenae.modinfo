@@ -97,9 +97,6 @@
 				<UpdateText>
 					<Item>text/en_us/LoadingText.xml</Item>
 				</UpdateText>
-				<UpdateVisualRemaps>
-					<Item></Item>
-				</UpdateVisualRemaps>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup  id="shell-Zester-Mycenae" 

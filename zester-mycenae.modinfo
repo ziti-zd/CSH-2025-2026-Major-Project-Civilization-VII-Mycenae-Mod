@@ -126,6 +126,7 @@
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

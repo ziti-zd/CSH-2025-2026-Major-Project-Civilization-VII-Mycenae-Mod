@@ -185,6 +185,14 @@
 			 Tooltip="LOC_QUARTER_ZESTER_WANAX_PALACE_TOOLTIP" 
 			 TraitType="TRAIT_ZESTER_MYCENAE"/>
 	</UniqueQuarters>
+	<Buildings>
+		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
+			 Movable="false"
+			 TraitType="TRAIT_ZESTER_MYCENAE"/>
+		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
+			 Movable="false"
+			 TraitType="TRAIT_ZESTER_MYCENAE"/>
+	</Buildings>
 	<GameModifiers>
 		<Row ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_IN_TOWNS"/>
 	</GameModifiers>

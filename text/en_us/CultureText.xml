@@ -8,7 +8,7 @@
 			<Text>Tomb-Building</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_ZESTER_TOMB_BUILDING_QUOTE">
-			<Text>A ceremonial precinct was built to set apart and preserve the place where the illustrious dead and their treasures had been laid to rest.</Text>
+			<Text>"A ceremonial precinct was built to set apart and preserve the place where the illustrious dead and their treasures had been laid to rest."</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_ZESTER_TOMB_BUILDING_AUTHOR">
 			<Text>Roderick Beaton</Text>
@@ -17,7 +17,7 @@
 			<Text>Cyclopean Masonry</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_QUOTE">
-			<Text>These are no ordinary fortifications. So massive are the stones of which they are built that later generations could hardly believe they had been raised into position by human beings at all.</Text>
+			<Text>"These are no ordinary fortifications. So massive are the stones of which they are built that later generations could hardly believe they had been raised into position by human beings at all."</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_AUTHOR">
 			<Text>Roderick Beaton</Text>

@@ -36,7 +36,7 @@
 		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_ZESTER_MYCENAE_DESCRIPTION</String>
 	</Modifier>
 	<!-- Culture Tree Unlock -->
-	<Modifier xmlns="" id="MOD_REVEAL_CIV_CULTURE_TREE_ZESTER_MYCENAE" 
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_ZESTER_MYCENAE" 
 			  collection="COLLECTION_OWNER" 
 			  effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
 		<SubjectRequirements>

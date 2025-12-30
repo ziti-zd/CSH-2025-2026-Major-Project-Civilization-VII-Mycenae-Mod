@@ -17,8 +17,8 @@
 	</Civilizations>
 	<CivilizationFavoredWonders>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE"
-			 FavoredWonderType="WONDER_LIONS_GATE"
-			 FavoredWonderName="LOC_WONDER_LIONS_GATE_NAME"/>
+			 FavoredWonderType="WONDER_ZESTER_LION_GATE"
+			 FavoredWonderName="LOC_WONDER_ZESTER_LION_GATE_NAME"/>
 	</CivilizationFavoredWonders>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE"

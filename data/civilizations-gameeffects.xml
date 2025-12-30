@@ -41,7 +41,7 @@
 			  effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
-				<Argument name="TraitType">TRAIT_ZESTER_MYCENAE</Argument>
+				<Argument name="TraitType">TRAIT_ZESTER_MYCENAE_ABILITY</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="ProgressionTreeType">TREE_CIVICS_ZESTER_MYCENAE</Argument>

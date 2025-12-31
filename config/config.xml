@@ -9,6 +9,9 @@
 			 CivilizationIcon="civ_mycenae.png"/>
 	</Civilizations>
 	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations"
+			 CivilizationType="CIVILIZATION_ZESTER_MYCENAE"
+			 Type="TRAIT_ZESTER_MYCENAE"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" 
 			 CivilizationType="CIVILIZATION_ZESTER_MYCENAE" 
 			 Type="TRAIT_ZESTER_MYCENAE_ABILITY" 

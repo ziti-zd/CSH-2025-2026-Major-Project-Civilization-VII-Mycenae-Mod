@@ -16,10 +16,8 @@
 	</Modifier>
 	
 	<Modifier id="MOD_ZESTER_LION_GATE_FORTIFICATION_YIELDS"
-			  collection="COLLECTION_OWNER"
-			  effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD"
-			  permanent="true"
-			  run-once="true">
+			  collection="COLLECTION_PLAYER_CITIES"
+			  effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
 				<Argument name="ConstructibleType">WONDER_ZESTER_LION_GATE</Argument>
@@ -46,9 +44,11 @@
 	<Modifier id="MOD_ZESTER_WANAX_PALACE_FOOD_PER_CONNECTED_SETTLEMENT"
 			  collection="COLLECTION_ALL_CITIES"
 			  effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
-		<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-			<Argument name="UniqueQuarterType">QUARTER_ZESTER_WANAX_PALACE</Argument>
-		</Requirement>
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_ZESTER_WANAX_PALACE</Argument>
+			</Requirement>
+		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_FOOD</Argument>
 		<Argument name="Amount">2</Argument>
 	</Modifier>

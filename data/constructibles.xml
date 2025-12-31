@@ -196,6 +196,10 @@
 	<GameModifiers>
 		<Row ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_IN_TOWNS"/>
 	</GameModifiers>
+	<UniqueQuarterModifiers>
+		<Row UniqueQuarterType="QUARTER_ZESTER_WANAX_PALACE"
+			 ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_IN_TOWNS"/>
+	</UniqueQuarterModifiers>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>

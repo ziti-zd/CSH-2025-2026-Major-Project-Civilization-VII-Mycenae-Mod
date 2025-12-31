@@ -19,7 +19,6 @@
 		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_NAME</Argument>
 		<Argument name="Description">LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION</Argument>
-		<String context="Description">LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION</String>
 	</Modifier>
 	
 	<!-- Linear B -->

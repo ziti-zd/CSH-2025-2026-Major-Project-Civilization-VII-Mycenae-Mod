@@ -6,7 +6,7 @@
 			 TargetType="MOD_REVEAL_CIV_CULTURE_TREE_ZESTER_MYCENAE"
 			 UnlockDepth="1"
 			 Hidden="true"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_CODE_OF_LAWS"
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_CODE_OF_LAWS"
 			 TargetKind="KIND_UNIT"
 			 TargetType="UNIT_ZESTER_PALACE_LEDGER"
 			 UnlockDepth="1"/>

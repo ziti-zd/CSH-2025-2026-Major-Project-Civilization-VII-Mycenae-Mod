@@ -71,7 +71,7 @@
 			<Text>Cyclopean Masonry</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION">
-			<Text>+1 [icon:YIELD_FOOD] Food, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_GOLD] Gold on [icon:Action_Fortify] Fortifications.</Text>
+			<Text>+1 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production on [icon:Action_Fortify] Fortifications.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ZESTER_LINEAR_B_NAME">
 			<Text>Linear B</Text>

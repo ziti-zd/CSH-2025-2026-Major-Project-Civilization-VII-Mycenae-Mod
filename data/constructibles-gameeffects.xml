@@ -15,7 +15,6 @@
 		<Argument name="Amount">2</Argument>
 	</Modifier>
 	
-	<!-- The Wanax Palace needs its Food per connected Settlement. -->
 	<Modifier id="MOD_ZESTER_LION_GATE_FORTIFICATION_YIELDS"
 			  collection="COLLECTION_OWNER"
 			  effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD"
@@ -27,19 +26,30 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Tag">FORTIFICATION</Argument>
-		<Argument name="YieldType">YIELD_FOOD,YIELD_PRODUCTION,YIELD_GOLD</Argument>
+		<Argument name="YieldType">YIELD_FOOD,YIELD_PRODUCTION</Argument>
 		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_WONDER_ZESTER_LION_GATE_NAME</Argument>
 		<Argument name="Description">LOC_WONDER_ZESTER_LION_GATE_DESCRIPTION</Argument>
 	</Modifier>
+	
 	<Modifier id="MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_IN_TOWNS"
 			  collection="COLLECTION_PLAYER_CITIES"
 			  effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true">
 			</Requirement>
-			<Argument name="YieldType">YIELD_FOOD</Argument>
-			<Argument name="Amount">2</Argument>
 		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_ZESTER_WANAX_PALACE_FOOD_PER_CONNECTED_SETTLEMENT"
+			  collection="COLLECTION_ALL_CITIES"
+			  effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
+		<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+			<Argument name="UniqueQuarterType">QUARTER_ZESTER_WANAX_PALACE</Argument>
+		</Requirement>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">2</Argument>
 	</Modifier>
 </GameEffects>

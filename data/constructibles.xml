@@ -111,9 +111,6 @@
 		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
 			 YieldType="YIELD_GOLD"
 			 Amount="2"/>
-		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"
-			 YieldType="YIELD_HAPPINESS"
-			 Amount="2"/>
 		<Row ConstructibleType="BUILDING_ZESTER_CYCLOPEAN_WALL"
 			 YieldType="YIELD_GOLD"
 			 Amount="2"/>

@@ -2,6 +2,7 @@
 <Database>
 	<Types>
 		<Row Type="TRAIT_ZESTER_MYCENAE_ABILITY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_ZESTER_MYCENAE" Kind="KIND_TRAIT"/>
 	</Types>
 	<Civilizations>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" 
@@ -23,6 +24,8 @@
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE"
 			 TraitType="TRAIT_ANTIQUITY_CIV"/>
+		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE"
+			 TraitType="TRAIT_ZESTER_MYCENAE"/>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" 
 			 TraitType="TRAIT_ZESTER_MYCENAE_ABILITY"/>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" 

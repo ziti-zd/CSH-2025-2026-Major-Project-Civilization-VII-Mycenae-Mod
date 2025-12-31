@@ -29,7 +29,7 @@
 			  effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
-				<Argument name="TraitType">TRAIT_ZESTER_MYCENAE_ABILITY</Argument>
+				<Argument name="TraitType">TRAIT_ZESTER_MYCENAE</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Percent">30</Argument>
@@ -41,7 +41,7 @@
 			  effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
-				<Argument name="TraitType">TRAIT_ZESTER_MYCENAE_ABILITY</Argument>
+				<Argument name="TraitType">TRAIT_ZESTER_MYCENAE</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="ProgressionTreeType">TREE_CIVICS_ZESTER_MYCENAE</Argument>

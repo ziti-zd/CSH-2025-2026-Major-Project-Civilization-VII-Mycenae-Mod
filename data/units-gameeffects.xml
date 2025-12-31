@@ -29,12 +29,9 @@
 	<!-- Palace Ledger Food on Road Creation-->
 	<Modifier id="ZESTER_PALACE_LEDGER_MOD_FOOD_ON_ROAD_CREATION"
 			  collection="COLLECTION_PLAYER_CAPITAL_CITY"
-			  effect="EFFECT_UNIT_ADJUST_COMMAND_AWARD">
+			  effect="EFFECT_CITY_GRANT_YIELD">
 		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount" 
-				  type="ScaleByGameSpeed">50
-		</Argument>
-		<Argument name="PerResource">true</Argument>
+		<Argument name="Amount" >50</Argument>
 		<Argument name="CommandType">UNITCOMMAND_CONNECT_WITH_ROAD</Argument>
 	</Modifier>
 </GameEffects>

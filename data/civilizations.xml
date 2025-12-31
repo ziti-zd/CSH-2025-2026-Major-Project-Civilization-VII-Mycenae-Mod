@@ -2,7 +2,6 @@
 <Database>
 	<Types>
 		<Row Type="TRAIT_ZESTER_MYCENAE_ABILITY" Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_ZESTER_MYCENAE" Kind="KIND_TRAIT"/>
 	</Types>
 	<Civilizations>
 		<Row CivilizationType="CIVILIZATION_ZESTER_MYCENAE" 

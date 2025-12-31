@@ -9,11 +9,11 @@
 			 TargetKind="KIND_UNIT"
 			 TargetType="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_2"
 			 UnlockDepth="1"
-			 RequiredTraitType="TRAIT_ZESTER_MYCENAE"/>
+			 RequiredTraitType="TRAIT_ZESTER_MYCENAE_ABILITY"/>
 		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING"
 			 TargetKind="KIND_UNIT"
 			 TargetType="UNIT_ZESTER_TUSK_HELMED_SPEARMAN_3"
 			 UnlockDepth="1"
-			 RequiredTraitType="TRAIT_ZESTER_MYCENAE"/>
+			 RequiredTraitType="TRAIT_ZESTER_MYCENAE_ABILITY"/>
 	</ProgressionTreeNodeUnlocks>
 </Database>

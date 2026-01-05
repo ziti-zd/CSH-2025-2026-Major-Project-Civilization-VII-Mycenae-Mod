@@ -15,13 +15,13 @@
 			  collection="COLLECTION_CITY_PLOT_YIELDS"
 			  effect="EFFECT_PLOT_ADJUST_YIELD">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IS_QUARTER"></Requirement>
+			<Requirement type="REQUIREMENT_PLOT_IS_QUARTER"/>
 			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
 				<Argument name="Tag">FORTIFICATION</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">1</Argument>
 		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_NAME</Argument>
 		<Argument name="Description">LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION</Argument>
 	</Modifier>

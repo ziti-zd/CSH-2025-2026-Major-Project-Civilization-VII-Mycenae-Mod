@@ -19,7 +19,7 @@
 				<Argument name="Tag">FORTIFICATION</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_FOOD,YIELD_PRODUCTION</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
 		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_NAME</Argument>
 		<Argument name="Description">LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION</Argument>

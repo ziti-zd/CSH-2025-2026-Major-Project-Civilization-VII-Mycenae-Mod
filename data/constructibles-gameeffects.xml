@@ -26,7 +26,6 @@
 				<Argument name="Tag">FORTIFICATION</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Tag">FORTIFICATION</Argument>
 		<Argument name="YieldType">YIELD_FOOD,YIELD_PRODUCTION</Argument>
 		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_WONDER_ZESTER_LION_GATE_NAME</Argument>

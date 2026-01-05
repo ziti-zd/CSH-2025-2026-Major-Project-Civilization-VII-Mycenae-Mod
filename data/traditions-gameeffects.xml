@@ -15,6 +15,7 @@
 			  collection="COLLECTION_CITY_PLOT_YIELDS"
 			  effect="EFFECT_PLOT_ADJUST_YIELD">
 		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IS_QUARTER"></Requirement>
 			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
 				<Argument name="Tag">FORTIFICATION</Argument>
 			</Requirement>

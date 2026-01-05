@@ -65,7 +65,7 @@
 			<Text>Grave Goods</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ZESTER_GRAVE_GOODS_DESCRIPTION">
-			<Text>+4 [icon:YIELD_GOLD] Gold on [icon:YIELD_HAPPINESS] Happiness Buildings.</Text>
+			<Text>+2 [icon:YIELD_GOLD] Gold on [icon:YIELD_HAPPINESS] Happiness Buildings.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_NAME">
 			<Text>Cyclopean Masonry</Text>

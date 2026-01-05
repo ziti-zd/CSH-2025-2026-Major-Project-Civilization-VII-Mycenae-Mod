@@ -12,9 +12,13 @@
 	
 	<!-- Cyclopean Masonry -->
 	<Modifier id="ZESTER_CYCLOPEAN_MASONRY_MOD_FORTIFICATION_YIELDS"
-			  collection="COLLECTION_PLAYER_CITIES"
-			  effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="Tag">FORTIFICATION</Argument>
+			  collection="COLLECTION_PLAYER_PLOT_YIELDS"
+			  effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
+			<Argument name="Tag">FORTIFICATION</Argument>
+		</Requirement>
+		</SubjectRequirements>
 		<Argument name="Yield">YIELD_FOOD,YIELD_PRODUCTION</Argument>
 		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_NAME</Argument>

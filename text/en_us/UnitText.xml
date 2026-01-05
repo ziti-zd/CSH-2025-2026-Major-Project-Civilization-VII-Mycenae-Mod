@@ -7,8 +7,11 @@
 		<Row Tag="LOC_UNIT_ZESTER_TUSK_HELMED_SPEARMAN_DESCRIPTION">
 			<Text>Mycenaean Unique Infantry Unit. Heals +10 [icon:Action_Heal] HP from [icon:Action_Pillage] Pillaging any tile. Has the Amphibious ability.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_ZESTER_TUSK_HELMED_SPEARMAN_BASE_DESCRIPTION">
-			<Text>Mycenaean Unique Infantry Unit. Heals +10 [icon:Action_Heal] HP from [icon:Action_Pillage] Pillaging any tile. Has the Amphibious ability.</Text>
+		<Row Tag="LOC_UNIT_ZESTER_TUSK_HELMED_SPEARMAN_2_DESCRIPTION">
+			<Text>Mycenaean Tier 2 Unique Infantry Unit. Heals +10 [icon:Action_Heal] HP from [icon:Action_Pillage] Pillaging any tile. Has the Amphibious ability.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZESTER_TUSK_HELMED_SPEARMAN_3_DESCRIPTION">
+			<Text>Mycenaean Tier 3 Unique Infantry Unit. Heals +10 [icon:Action_Heal] HP from [icon:Action_Pillage] Pillaging any tile. Has the Amphibious ability.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ZESTER_PALACE_LEDGER_NAME">
 			<Text>Palace Ledger</Text>

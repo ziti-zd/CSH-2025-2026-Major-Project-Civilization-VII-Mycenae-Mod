@@ -5,7 +5,7 @@
 			  collection="COLLECTION_OWNER"
 			  effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">4</Argument>
+		<Argument name="Amount">2</Argument>
 		<Argument name="Tag">HAPPINESS</Argument>
 		<String context="Description">LOC_TRADITION_ZESTER_GRAVE_GOODS_DESCRIPTION</String>
 	</Modifier>
@@ -17,7 +17,7 @@
 		<Argument name="Tag">FORTIFICATION</Argument>
 		<Argument name="Yield">YIELD_FOOD,YIELD_PRODUCTION</Argument>
 		<Argument name="Amount">1</Argument>
-		<Argument name="Tooltip">LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_NAME</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_NAME</Argument>
 		<Argument name="Description">LOC_TRADITION_ZESTER_CYCLOPEAN_MASONRY_DESCRIPTION</Argument>
 	</Modifier>
 	

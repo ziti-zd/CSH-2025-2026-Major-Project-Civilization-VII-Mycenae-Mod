@@ -15,6 +15,9 @@
 			  collection="COLLECTION_CITY_PLOT_YIELDS"
 			  effect="EFFECT_PLOT_ADJUST_YIELD">
 		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">RURAL,URBAN,WONDER</Argument>
+			</Requirement>
 			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
 				<Argument name="Tag">FORTIFICATION</Argument>
 			</Requirement>

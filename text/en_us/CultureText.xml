@@ -56,7 +56,7 @@
 			<Text>+2 [icon:YIELD_GOLD] Gold for each active [icon:TRADE_ROUTE] Trade Route.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ZESTER_COMMANDER_PROMOTIONS_DESCRIPTION">
-			<Text>[icon:UNIT_ARMY_COMMANDER] Army Commanders receive the [icon:NAR_REW_PROMOTION] Zeal and Looting Promotions for free.</Text>
+			<Text>[icon:UNIT_ARMY_COMMANDER] Army Commanders receive the [icon:NAR_REW_PROMOTION] Looting Promotion for free.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ZESTER_SETTLEMENT_LIMIT_DESCRIPTION">
 			<Text>+1 [icon:SETTLEMENT_LIMIT] Settlement Limit.</Text>

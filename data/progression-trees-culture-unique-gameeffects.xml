@@ -47,5 +47,23 @@
 		<Argument name="Amount" type="ScaleByGameSpeed">25</Argument>
 		<Argument name="PerResource">true</Argument>
 		<Argument name="CommandType">UNITCOMMAND_MAKE_TRADE_ROUTE</Argument>
+		<String context="Description">LOC_MOD_ZESTER_GOLD_PER_TRADE_ROUTE_DESCRIPTION</String>
 	</Modifier>
+	
+	<!-- Warrior Elite -->
+	<!--	Commander Promition -->
+	<Modifier id="MOD_ZESTER_COMMANDER_PROMOTIONS"
+			  collection="COLLECTION_PLAYER_CITIES"
+			  effect="EFFECT_GRANT_UNIT_PROMOTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_ARMY_COMMANDER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitPromotionType">PROMOTION_ARMY_LOOTING</Argument>
+		<Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_LOGISTICS</Argument>
+		<String context="Description">LOC_MOD_ZESTER_COMMANDER_PROMOTIONS_DESCRIPTION</String>
+	</Modifier>
+	
+	<!--	Palace Ledger on Settlement Capture -->
 </GameEffects>

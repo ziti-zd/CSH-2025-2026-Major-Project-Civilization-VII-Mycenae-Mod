@@ -123,6 +123,10 @@
 			 TargetKind="KIND_MODIFIER" 
 			 TargetType="MOD_ZESTER_COMMANDER_PROMOTIONS" 
 			 UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE"
+			 TargetKind="KIND_MODIFIER"
+			 TargetType="MOD_ZESTER_LEDGER_ON_CAPTURE"
+			 UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" 
 			 TargetKind="KIND_MODIFIER" 
 			 TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" 

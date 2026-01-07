@@ -49,7 +49,7 @@
 		<Argument name="Amount" type="ScaleByGameSpeed">25</Argument>
 		<Argument name="PerResource">true</Argument>
 		<Argument name="CommandType">UNITCOMMAND_MAKE_TRADE_ROUTE</Argument>
-		<String context="Description">LOC_MOD_ZESTER_GOLD_PER_TRADE_ROUTE_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_ZESTER_GOLD_ON_RESOURCE_DESCRIPTION</String>
 	</Modifier>
 	
 	<!-- Warrior Elite -->

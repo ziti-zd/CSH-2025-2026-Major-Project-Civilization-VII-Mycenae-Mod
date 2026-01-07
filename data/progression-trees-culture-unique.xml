@@ -125,7 +125,7 @@
 			 UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" 
 			 TargetKind="KIND_MODIFIER" 
-			 TargetType="MOD_ZESTER_SETTLEMENT_LIMIT" 
+			 TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" 
 			 UnlockDepth="2"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTree_Advisories>

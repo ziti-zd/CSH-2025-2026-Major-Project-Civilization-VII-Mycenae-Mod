@@ -58,8 +58,8 @@
 		<Row Tag="LOC_MOD_ZESTER_COMMANDER_PROMOTIONS_DESCRIPTION">
 			<Text>[icon:UNIT_ARMY_COMMANDER] Army Commanders receive the [icon:NAR_REW_PROMOTION] Looting Promotion for free.</Text>
 		</Row>
-		<Row Tag="LOC_MOD_ZESTER_SETTLEMENT_LIMIT_DESCRIPTION">
-			<Text>+1 [icon:SETTLEMENT_LIMIT] Settlement Limit.</Text>
+		<Row Tag="LOC_MOD_ZESTER_LEDGER_ON_CAPTURE_DESCRIPTION">
+			<Text>Receive a Palace Ledger in Settlements you capture.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ZESTER_GRAVE_GOODS_NAME">
 			<Text>Grave Goods</Text>

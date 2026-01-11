@@ -56,7 +56,7 @@
 			<Text>+2 [icon:YIELD_GOLD] Gold for each active [icon:TRADE_ROUTE] Trade Route.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ZESTER_GOLD_ON_RESOURCE_DESCRIPTION">
-			<Text>Palace Ledgers grant 25 :Gold: Gold for every :Resource: Resource when creating a naval :TradeRoute: Trade Route.</Text>
+			<Text>Palace Ledgers grant 25 [icon:YIELD_GOLD] Gold for every [icon:RADIAL_RESOURCES] Resource when creating a naval [icon:TRADE_ROUTE] Trade Route.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ZESTER_COMMANDER_PROMOTIONS_DESCRIPTION">
 			<Text>[icon:UNIT_ARMY_COMMANDER] Army Commanders receive the [icon:NAR_REW_PROMOTION] Looting Promotion for free.</Text>

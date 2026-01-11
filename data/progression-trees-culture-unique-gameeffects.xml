@@ -28,6 +28,7 @@
 			  effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
 		<Argument name="DomainType">DOMAIN_LAND</Argument>
 		<Argument name="Amount">10</Argument>
+		<Argument name="Tooltip">LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE</Argument>
 		<String context="Description">LOC_MOD_ZESTER_TRADE_ROUTE_RANGE_BUFF_DESCRIPTION</String>
 	</Modifier>
 	<Modifier id="MOD_ZESTER_NAVAL_TRADE_ROUTE_RANGE_BUFF"
@@ -35,7 +36,7 @@
 			  effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
 		<Argument name="DomainType">DOMAIN_SEA</Argument>
 		<Argument name="Amount">10</Argument>
-		<String context="Description">LOC_MOD_ZESTER_TRADE_ROUTE_RANGE_BUFF_DESCRIPTION</String>
+		<Argument name="Tooltip">LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE</Argument>
 	</Modifier>
 	<!--	Gold per Trade Route -->
 	<!-- Base the Gold per trade route off of Achaemenid Xerxes' Incense Censer. -->

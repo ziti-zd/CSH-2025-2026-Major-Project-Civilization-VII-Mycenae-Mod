@@ -9,8 +9,8 @@
 				<Argument name="HasAnyProject">true</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_GOLD, YIELD_FOOD</Argument>
-		<Argument name="Percent">-75</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Percent">-50</Argument>
 	</Modifier>
 	<!-- Extra Gold in Cities -->
 	<Modifier id="TRAIT_MOD_ZESTER_PALACE_ECONOMY_CITY" 
@@ -19,8 +19,8 @@
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE" />
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Percent">25</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Percent">10</Argument>
 		<Argument name="PercentMultiplier">true</Argument>
 	</Modifier>
 	<!-- Wonder Bonus -->

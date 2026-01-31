@@ -38,7 +38,7 @@
 			  collection="COLLECTION_UNIT_COMBAT"
 			  effect="EFFECT_ADJUST_UNIT_POST_COMBAT_YIELD">
 		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="PercentDefeatedStrength">100</Argument>
+		<Argument name="PercentDefeatedStrength">200</Argument>
 		<String context="Description">LOC_TRADITION_ZESTER_HOMERIC_LEGEND_DESCRIPTION</String>
 	</Modifier>
 </GameEffects>

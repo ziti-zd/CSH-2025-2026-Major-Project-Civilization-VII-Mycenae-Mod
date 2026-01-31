@@ -86,7 +86,7 @@
 			<Text>Homeric Legend</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ZESTER_HOMERIC_LEGEND_DESCRIPTION">
-			<Text>When one of your Land Military Units defeats an enemy Unit, gain [icon:YIELD_GOLD] Gold equal to 100% of its [icon:NAR_REW_COMBAT] Combat Strength.</Text>
+			<Text>When one of your Land Military Units defeats an enemy Unit, gain [icon:YIELD_GOLD] Gold equal to 200% of its [icon:NAR_REW_COMBAT] Combat Strength.</Text>
 		</Row>
 	</EnglishText>
 </Database>

@@ -12,7 +12,7 @@
 		<Argument name="YieldType">YIELD_FOOD</Argument>
 		<Argument name="Percent">-50</Argument>
 	</Modifier>
-	<!-- Extra Gold in Cities -->
+	<!-- Extra Food in Cities -->
 	<Modifier id="TRAIT_MOD_ZESTER_PALACE_ECONOMY_CITY" 
 			  collection="COLLECTION_ALL_CITIES" 
 			  effect="EFFECT_CITY_ADJUST_YIELD">
@@ -22,6 +22,17 @@
 		<Argument name="YieldType">YIELD_FOOD</Argument>
 		<Argument name="Percent">10</Argument>
 		<Argument name="PercentMultiplier">true</Argument>
+	</Modifier>
+	<!-- Town Upgrade Discount-->
+	<Modifier id="TRAIT_MOD_ZESTER_PALACE_ECONOMY_TOWN_CONVERSION_DISCOUNT"
+			  collection="COLLECTION_ALL_CITIES"
+			  effect="EFFECT_CITY_ADJUST_TOWN_UPGRADE_DISCOUNT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="HasAnyProject">true</Argument>
+			</Requirement>
+			<Argument name="Percent">50</Argument>
+		</SubjectRequirements>
 	</Modifier>
 	<!-- Wonder Bonus -->
 	<Modifier id="TRAIT_MOD_ZESTER_MYCENAE_WONDER_PRODUCTION" 

@@ -56,7 +56,7 @@
 	<!-- Warrior Elite -->
 	<!--	Commander Promition -->
 	<Modifier id="MOD_ZESTER_COMMANDER_PROMOTIONS"
-			  collection="COLLECTION_PLAYER_CITIES"
+			  collection="COLLECTION_PLAYER_UNITS"
 			  effect="EFFECT_GRANT_UNIT_PROMOTION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">

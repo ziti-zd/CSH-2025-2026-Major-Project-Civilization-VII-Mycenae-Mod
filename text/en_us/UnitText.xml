@@ -17,7 +17,7 @@
 			<Text>Palace Ledger</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ZESTER_PALACE_LEDGER_DESCRIPTION">
-			<Text>Mycenaean Unique Merchant. Civilian who can establish a [icon:TRADE_ROUTE] Trade Route to import [icon:RADIAL_RESOURCES] Resources from a foreign Settlement. Gain 50 [icon:YIELD_FOOD] Food in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital when using the Create Road Action.</Text>
+			<Text>Mycenaean Unique Merchant. Civilian who can establish a [icon:TRADE_ROUTE] Trade Route to import [icon:RADIAL_RESOURCES] Resources from a foreign Settlement. +50 [icon:YIELD_CULTURE] Culture when using the Create a Road Action.</Text>
 		</Row>
 	</EnglishText>
 </Database>

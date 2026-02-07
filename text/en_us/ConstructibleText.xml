@@ -28,5 +28,20 @@
 		<Row Tag="LOC_BUILDING_ZESTER_CYCLOPEAN_WALL_TOOLTIP">
 			<Text>+2 [icon:YIELD_DIPLOMACY] Influence if placed on [icon:CITY_UNIMPROVED] Rough Terrain.[n]Mycenaean Unique Building.</Text>
 		</Row>
+		<Row Tag="LOC_WONDER_ZESTER_LION_GATE_NAME">
+			<Text>Lion Gate</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_ZESTER_LION_GATE_DESCRIPTION">
+			<Text>+1 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production on [icon:Action_Fortify] Fortifications in all Settlements. Acts as a [icon:CITY_FORTIFIED] Fortified District that must be conquered. Ageless. Must be placed on Rough Terrain.</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_ZESTER_LION_GATE_TOOLTIP">
+			<Text>+1 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production on [icon:Action_Fortify] Fortifications in all Settlements. Acts as a [icon:CITY_FORTIFIED] Fortified District that must be conquered. [N]Must be placed on Rough Terrain.</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_WONDER_ZESTER_LION_GATE">
+			<Text>Placeholder</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_AUTHOR_WONDER_ZESTER_LION_GATE">
+			<Text>Placeholder</Text>
+		</Row>
 	</EnglishText>
 </Database>

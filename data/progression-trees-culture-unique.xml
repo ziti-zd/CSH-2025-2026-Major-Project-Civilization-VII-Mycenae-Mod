@@ -39,22 +39,22 @@
 	<ProgressionTreeNodes>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_TOMB_BUILDING" 
 			 ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" 
-			 Cost="180" 
+			 Cost="150" 
 			 Name="LOC_CIVIC_ZESTER_TOMB_BUILDING_NAME" 
 			 IconString="cult_zester_mycenae"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_CYCLOPEAN_MASONRY" 
 			 ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" 
-			 Cost="300" 
+			 Cost="250" 
 			 Name="LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_NAME" 
 			 IconString="cult_zester_mycenae"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE" 
 			 ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" 
-			 Cost="480" 
+			 Cost="400" 
 			 Name="LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE_NAME" 
 			 IconString="cult_zester_mycenae"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" 
 			 ProgressionTree="TREE_CIVICS_ZESTER_MYCENAE" 
-			 Cost="480" Name="LOC_CIVIC_ZESTER_WARRIOR_ELITE_NAME" 
+			 Cost="400" Name="LOC_CIVIC_ZESTER_WARRIOR_ELITE_NAME" 
 			 IconString="cult_zester_mycenae"/>
 	</ProgressionTreeNodes>
 	<ProgressionTreePrereqs>

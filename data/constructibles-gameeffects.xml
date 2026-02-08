@@ -32,7 +32,8 @@
 	
 	<Modifier id="MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_IN_TOWNS"
 			  collection="COLLECTION_PLAYER_CITIES"
-			  effect="EFFECT_CITY_ADJUST_YIELD">
+			  effect="EFFECT_CITY_ADJUST_YIELD"
+			  permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true">
 			</Requirement>
@@ -43,7 +44,8 @@
 
 	<Modifier id="MOD_ZESTER_WANAX_PALACE_FOOD_PER_CONNECTED_SETTLEMENT"
 			  collection="COLLECTION_ALL_CITIES"
-			  effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
+			  effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY"
+			  permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_ZESTER_WANAX_PALACE</Argument>

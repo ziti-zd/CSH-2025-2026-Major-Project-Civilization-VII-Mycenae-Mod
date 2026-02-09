@@ -41,17 +41,22 @@
 		<Argument name="YieldType">YIELD_FOOD</Argument>
 		<Argument name="Amount">2</Argument>
 	</Modifier>
-
-	<Modifier id="MOD_ZESTER_WANAX_PALACE_FOOD_PER_CONNECTED_SETTLEMENT"
-			  collection="COLLECTION_ALL_CITIES"
-			  effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY"
-			  permanent="true">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_ZESTER_WANAX_PALACE</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount">2</Argument>
+	
+	<Modifier id="MOD_ZESTER_MYCENAE_WANAX_PALACE_ATTACH_MODIFIERS" 
+			  collection="COLLECTION_ALL_CITIES" 
+			  effect="EFFECT_ATTACH_MODIFIERS">
+        <SubjectRequirements>
+        	<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+            	<Argument name="UniqueQuarterType">QUARTER_ZESTER_WANAX_PALACE</Argument>
+        	</Requirement>
+    	</SubjectRequirements>
+    	<Argument name="ModifierId">MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_IN_TOWNS, MOD_ZESTER_WANAX_PALACE_FOOD_PER_CONNECTED_SETTLEMENT</Argument>
+	</Modifier>
+	
+ 	<Modifier id="MOD_ZESTER_WANAX_PALACE_FOOD_PER_CONNECTED_SETTLEMENT"
+          collection="COLLECTION_OWNER"
+          effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
+    	<Argument name="YieldType">YIELD_FOOD</Argument>
+    	<Argument name="Amount">2</Argument>
 	</Modifier>
 </GameEffects>

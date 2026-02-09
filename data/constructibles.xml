@@ -190,10 +190,13 @@
 			 Movable="false"
 			 TraitType="TRAIT_ZESTER_MYCENAE"/>
 	</Buildings>
-	<GameModifiers>
-		<Row ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_IN_TOWNS"/>
-		<Row ModifierId="MOD_ZESTER_WANAX_PALACE_FOOD_PER_CONNECTED_SETTLEMENT"/>
-	</GameModifiers>
+    <GameModifiers>
+        <Row ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_ATTACH_MODIFIERS"/>
+    </GameModifiers>
+    <!-- These are listed here so the AI can evaluate Unique Quarters. They do not have any effects on the game for human players. -->
+    <UniqueQuarterModifiers>
+        <Row UniqueQuarterType="QUARTER_WANAX_PALACE" ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_ATTACH_MODIFIERS"/>
+    </UniqueQuarterModifiers>
 	<UniqueQuarterModifiers>
 		<Row UniqueQuarterType="QUARTER_ZESTER_WANAX_PALACE"
 			 ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_IN_TOWNS"/>

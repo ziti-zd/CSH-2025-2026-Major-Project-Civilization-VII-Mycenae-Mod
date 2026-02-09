@@ -197,12 +197,6 @@
     <UniqueQuarterModifiers>
         <Row UniqueQuarterType="QUARTER_WANAX_PALACE" ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_ATTACH_MODIFIERS"/>
     </UniqueQuarterModifiers>
-	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_ZESTER_WANAX_PALACE"
-			 ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_FOOD_IN_TOWNS"/>
-		<Row UniqueQuarterType="QUARTER_ZESTER_WANAX_PALACE"
-			 ModifierId="MOD_ZESTER_WANAX_PALACE_FOOD_PER_CONNECTED_SETTLEMENT"/>
-	</UniqueQuarterModifiers>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>

@@ -8,7 +8,7 @@
 			<Text>Brace yourself. Earthshaker Poseidon favors the people of the boar tusk helm.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_ZESTER_MYCENAE">
-			<Text>Mycenae favors well-fortified Cities over Towns. Make as many Cities as possible and build a Wanax Palace in each one to shower your Towns with Food.</Text>
+			<Text>Mycenae wants to turn its Towns into Cities by first showering them with Food from their Wanax Palaces. Build lots of Cities and build a Wanax Palace in each one.</Text>
 		</Row>
 	</EnglishText>
 </Database>

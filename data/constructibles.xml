@@ -195,7 +195,7 @@
     </GameModifiers>
     <!-- These are listed here so the AI can evaluate Unique Quarters. They do not have any effects on the game for human players. -->
     <UniqueQuarterModifiers>
-        <Row UniqueQuarterType="QUARTER_WANAX_PALACE" ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_ATTACH_MODIFIERS"/>
+        <Row UniqueQuarterType="QUARTER_ZESTER_WANAX_PALACE" ModifierId="MOD_ZESTER_MYCENAE_WANAX_PALACE_ATTACH_MODIFIERS"/>
     </UniqueQuarterModifiers>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>

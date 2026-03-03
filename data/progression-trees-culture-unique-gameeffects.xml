@@ -6,7 +6,7 @@
 			  effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
 		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">10</Argument>
+		<Argument name="Amount">5</Argument>
 		<String context="Description">LOC_MOD_ZESTER_PALACE_GOLD_DESCRIPTION</String>
 	</Modifier>
 

@@ -44,7 +44,7 @@
 			<Text>Homer</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ZESTER_PALACE_GOLD_DESCRIPTION">
-			<Text>+10 [icon:YIELD_GOLD] Gold on the Palace.</Text>
+			<Text>+5 [icon:YIELD_GOLD] Gold on the Palace.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ZESTER_FORTIFICATION_PRODUCTION_BUFF_DESCRIPTION">
 			<Text>+50% [icon:YIELD_PRODUCTION] Production towards [icon:Action_Fortify] Fortifications.</Text>

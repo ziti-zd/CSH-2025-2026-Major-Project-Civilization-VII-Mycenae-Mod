@@ -48,6 +48,17 @@
 	</Modifier>
 	
 	<!-- Mediterranean Trade Mastery -->
+	<Modifier id="MOD_ZESTER_PALACE_LEDGER_ATTACH_NAVAL_GOLD"
+			  collection="COLLECTION_PLAYER_UNITS"
+			  effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_ZESTER_PALACE_LEDGER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_ZESTER_PALACE_LEDGER_NAVAL_GOLD</Argument>
+	</Modifier>
+	
 	<Modifier id="MOD_ZESTER_PALACE_LEDGER_RESOURCE_GOLD"
 			  collection="COLLECTION_OWNER"
 			  effect="EFFECT_UNIT_ADJUST_COMMAND_AWARD">

@@ -113,7 +113,7 @@
 			 UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_MEDITERRANEAN_TRADE"
 			 TargetKind="KIND_MODIFIER"
-			 TargetType="MOD_ZESTER_PALACE_LEDGER_RESOURCE_GOLD"
+			 TargetType="MOD_ZESTER_PALACE_LEDGER_ATTACH_NAVAL_GOLD"
 			 UnlockDepth="2"/>
 		<Row ProgressionTreeNodeType="CIVIC_ZESTER_WARRIOR_ELITE" 
 			 TargetKind="KIND_MODIFIER" 

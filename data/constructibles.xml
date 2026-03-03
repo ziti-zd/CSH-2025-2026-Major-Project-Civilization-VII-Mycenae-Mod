@@ -165,7 +165,9 @@
 			 ModifierId="MOD_ZESTER_CYCLOPEAN_WALL_INFLUENCE_ON_ROUGH"/>
 		<!--Wonders-->
 		<Row ConstructibleType="WONDER_ZESTER_LION_GATE" 
-			 ModifierId="MOD_ZESTER_LION_GATE_FORTIFICATION_YIELDS"/>
+			 ModifierId="MOD_ZESTER_LION_GATE_FORTIFICATION_YIELDS"
+			 ModfifierId="MOD_ZESTER_FORTIFICATION_PRODUCTION_BUFF"/>
+			
 	</ConstructibleModifiers>
 	<Constructible_BuildingCostProgressions>
 		<Row ConstructibleType="BUILDING_ZESTER_MEGARON"

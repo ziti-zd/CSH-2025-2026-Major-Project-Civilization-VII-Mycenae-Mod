@@ -35,7 +35,7 @@
 			<Text>+50% [icon:YIELD_PRODUCTION] Production towards [icon:Action_Fortify] Fortifications. +1 [icon:YIELD_FOOD] on [icon:Action_Fortify] Fortifications in all Settlements. Acts as a [icon:CITY_FORTIFIED] Fortified District that must be conquered. Ageless. Must be placed on Rough Terrain.</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_ZESTER_LION_GATE_TOOLTIP">
-			<Text>+50% [icon:YIELD_PRODUCTION] Production towards [icon:Action_Fortify] Fortifications. +1 [icon:YIELD_FOOD] Food on [icon:Action_Fortify] Fortifications in all Settlements. Acts as a [icon:CITY_FORTIFIED] Fortified District that must be conquered. [N]Must be placed on Rough Terrain.</Text>
+			<Text>+1 [icon:YIELD_FOOD] Food on [icon:Action_Fortify] Fortifications in all Settlements. Acts as a [icon:CITY_FORTIFIED] Fortified District that must be conquered. [N]Must be placed on Rough Terrain.</Text>
 		</Row>
 		<Row Tag="LOC_QUOTE_WONDER_ZESTER_LION_GATE">
 			<Text>Placeholder</Text>

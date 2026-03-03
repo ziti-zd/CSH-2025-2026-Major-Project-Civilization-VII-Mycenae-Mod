@@ -32,7 +32,7 @@
 			  collection="COLLECTION_OWNER"
 			  effect="EFFECT_UNIT_ADJUST_COMMAND_AWARD">
 		<Argument name="YieldType">YIELD_CULTURE</Argument>
-		<Argument name="Amount">50</Argument>
+		<Argument name="Amount" type="ScaleByGameSpeed">50</Argument>
 		<Argument name="PerResource">true</Argument>
 		<Argument name="CommandType">UNITCOMMAND_CONNECT_WITH_ROAD</Argument>
 	</Modifier>

@@ -40,6 +40,7 @@
 	</Modifier>
 	<!--	Gold per Trade Route -->
 	<!-- Base the Gold per trade route off of Achaemenid Xerxes' Incense Censer. -->
+	<!-- Be sure to map the correct text to it!-->
 	
 	<!-- Mediterranean Trade Mastery -->
 	<Modifier id="MOD_ZESTER_PALACE_LEDGER_RESOURCE_GOLD"

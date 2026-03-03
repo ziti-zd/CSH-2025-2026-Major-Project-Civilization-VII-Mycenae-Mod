@@ -18,7 +18,6 @@
 		<Argument name="Percent">50</Argument>
 		<Argument name="Tag">FORTIFICATION</Argument>
 		<Argument name="Tooltip">LOC_CIVIC_ZESTER_CYCLOPEAN_MASONRY_NAME</Argument>
-		<String context="Description">LOC_MOD_ZESTER_FORTIFICATION_PRODUCTION_BUFF_DESCRIPTION</String>
 	</Modifier>
 	
 	<!-- Mediterranean Trade -->
@@ -38,9 +37,15 @@
 		<Argument name="Amount">10</Argument>
 		<Argument name="Tooltip">LOC_CIVIC_ZESTER_MEDITERRANEAN_TRADE</Argument>
 	</Modifier>
+	
 	<!--	Gold per Trade Route -->
-	<!-- Base the Gold per trade route off of Achaemenid Xerxes' Incense Censer. -->
-	<!-- Be sure to map the correct text to it!-->
+	<Modifier id="MOD_ZESTER_GOLD_PER_TRADE_ROUTE"
+			  collection="COLLECTION_OWNER"
+			  effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_ZESTER_GOLD_PER_TRADE_ROUTE_DESCRIPTION</String>
+	</Modifier>
 	
 	<!-- Mediterranean Trade Mastery -->
 	<Modifier id="MOD_ZESTER_PALACE_LEDGER_RESOURCE_GOLD"

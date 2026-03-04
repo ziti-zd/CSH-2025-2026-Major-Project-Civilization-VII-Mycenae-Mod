@@ -57,6 +57,7 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="AbilityType">ABILITY_ZESTER_PALACE_LEDGER_NAVAL_GOLD</Argument>
+		<String context="Description">LOC_MOD_ZESTER_GOLD_PER_TRADE_ROUTE_DESCRIPTION</String>
 	</Modifier>
 	
 	<Modifier id="MOD_ZESTER_PALACE_LEDGER_RESOURCE_GOLD"

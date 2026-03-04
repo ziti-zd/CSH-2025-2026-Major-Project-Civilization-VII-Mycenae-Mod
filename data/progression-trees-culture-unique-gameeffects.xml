@@ -95,7 +95,7 @@
 				<Argument name="OwnerSettled">false</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="UnitTag">UNIT_CLASS_MERCHANT</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_ZESTER_PALACE_LEDGER</Argument>
 		<Argument name="AllowUniqueOverride">true</Argument>
 		<String context="Description">LOC_MOD_ZESTER_LEDGER_ON_CAPTURE_DESCRIPTION</String>
 	</Modifier>

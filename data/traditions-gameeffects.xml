@@ -33,6 +33,20 @@
 		<String context="Description">LOC_TRADITION_ZESTER_LINEAR_B_DESCRIPTION</String>
 	</Modifier>
 
+	<Modifier id="ZESTER_HOMERIC_LEGEND_MOD_ATTACH"
+			  collection="COLLECTION_PLAYER_UNITS"
+			  effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMBAT</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ZESTER_HOMERIC_LEGEND_MOD_GOLD_ON_KILL</Argument>
+	</Modifier>
+	
 	<!-- Homeric Legend -->
 	<Modifier id="ZESTER_HOMERIC_LEGEND_MOD_GOLD_ON_KILL"
 			  collection="COLLECTION_UNIT_COMBAT"

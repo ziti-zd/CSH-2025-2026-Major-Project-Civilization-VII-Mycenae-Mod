@@ -88,15 +88,9 @@
 	
 	<!--	Palace Ledger on Settlement Capture -->
 	<Modifier id="MOD_ZESTER_LEDGER_ON_CAPTURE"
-			  collection="COLLECTION_PLAYER_CITIES"
-			  effect="EFFECT_CITY_GRANT_UNIT">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_FIRST_TIME_SETTLEMENT_OCCUPATION">
-				<Argument name="OwnerSettled">false</Argument>
-			</Requirement>
-		</SubjectRequirements>
+			  collection="COLLECTION_OWNER"
+			  effect="EFFECT_CITY_GRANT_UNIT_ON_CAPTURE_CITY">
 		<Argument name="UnitTag">UNIT_CLASS_ZESTER_PALACE_LEDGER</Argument>
-		<Argument name="AllowUniqueOverride">true</Argument>
 		<String context="Description">LOC_MOD_ZESTER_LEDGER_ON_CAPTURE_DESCRIPTION</String>
 	</Modifier>
 </GameEffects>
